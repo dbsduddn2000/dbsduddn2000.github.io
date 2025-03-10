@@ -1,5 +1,5 @@
 ---
-title: Example post 1
+title: test post 1
 author: sarah-johnson
 tags:
   - biology
