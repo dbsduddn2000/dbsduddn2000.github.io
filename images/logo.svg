@@ -17,7 +17,7 @@
     alignment-baseline="middle"
     font-style="italic"
     transform="skewX(-10)"  <!-- 글자를 X축 기준 -10도 기울임 -->
-  
+  >
     CVMI
   </text>
 </svg>
