@@ -9,11 +9,14 @@ models and their application for AI systems.
 
 {% include section.html %}
 
-## Highlights
+## Introduction
 
 {% capture text %}
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+✓ Computer vision and pattern recognition
+✓ Machine learning / deep learning
+✓ Smart mobility robot / vehicle
+✓ Industrial big data analysis with machine intelligence
 
 {%
   include button.html
