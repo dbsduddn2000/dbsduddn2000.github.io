@@ -1,9 +1,11 @@
 ---
 ---
 
-# dbsduddn2000's Website
+# COMPUTER VISION & MACHINE INTELLIGENCE LAB.
 
-An engaging 1-3 sentence description of your lab.
+Welcome to the Computer Vision and Machine Intelligence Lab. (CVMILab) at the Department of Aritificial Intelligence,
+Kyungpook Natial University. The CVMILab. challenges unsolved problems by developing novel machine learning/deep learning
+models and their application for AI systems.
 
 {% include section.html %}
 
