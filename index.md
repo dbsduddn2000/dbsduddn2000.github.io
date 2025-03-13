@@ -13,7 +13,7 @@ models and their application for AI systems.
 
 {% capture text %}
 
-✓ Computer vision and pattern recognition
+✓ Computer vision and pattern recognition \n
 ✓ Machine learning / deep learning
 ✓ Smart mobility robot / vehicle
 ✓ Industrial big data analysis with machine intelligence
