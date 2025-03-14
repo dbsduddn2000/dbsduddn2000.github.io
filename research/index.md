@@ -14,7 +14,10 @@ nav:
 
 {% include section.html %}
 
-## All
+## Preprint
+
+
+## Published
 
 {% include search-box.html %}
 
