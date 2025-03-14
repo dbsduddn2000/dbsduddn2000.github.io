@@ -2,9 +2,6 @@
 - id: doi.org/10.1016/j.compbiomed.2024.109525
   title: "STCNet: Spatio-Temporal Cross Network with subject-aware contrastive learning for hand
 gesture recognition in surface EMG"
-- id: doi:10.1093/nar/gkad1082
-  title: "The Monarch Initiative in 2024: an analytic platform integrating phenotypes,\
-    \ genes\_and diseases across species"
   authors:
   - Jaemo Yang
   - Doheun Cha
