@@ -84,3 +84,12 @@ models and their application for AI systems.
 
 We are looking for highly motivated graduate students, post-docs, and undergraduate interns. If you
 are interested to join our Lab. Please do not hesitate to contact Prof. Dong-Gyu Lee
+
+{%
+  include button_mail.html
+  link="mail"
+  text="Contact Prof. Dong-Gyu Lee"
+  icon="fa-solid fa-arrow-right"
+  flip=true
+  style="bare"
+%}
