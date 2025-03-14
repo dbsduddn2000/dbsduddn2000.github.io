@@ -39,7 +39,7 @@ models and their application for AI systems.
 
 {% capture text %}
 
-<b>[Latest News]</br> Congratulations! <b>Jun-Hyeok</b> received an <b>우수발표논문상</b> in <b>KSC 2024</b>.
+<b>[Latest News]</b> Congratulations! <b>Jun-Hyeok</b> received an <b>우수발표논문상</b> in <b>KSC 2024</b>.
 
 {%
   include button.html
@@ -79,3 +79,8 @@ models and their application for AI systems.
   title="Student Supprots"
   text=text
 %}
+
+## Any Interest?
+
+We are looking for highly motivated graduate students, post-docs, and undergraduate interns. If you
+are interested to join our Lab. Please do not hesitate to contact Prof. Dong-Gyu Lee
