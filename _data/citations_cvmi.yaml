@@ -25,3 +25,17 @@ detection"
   image: images/DSU_photo.jpg
   date: '2025-01'
   link: https://www.sciencedirect.com/science/article/pii/S095741742402164X
+  tags:
+  - Internatial Journal
+- id: doi.org/10.1016/j.ins.2024.121277
+  title: "Enhancing clustering representations with positive proximity and cluster dispersion
+learning"
+  authors:
+  - Abhishek Kumar
+  - Dong-Gyu Lee
+  publisher: Information Sciences
+  image: images/ECR_photo.jpg
+  date: '2025-01'
+  link: https://www.sciencedirect.com/science/article/pii/S0020025524011915
+  tags:
+  - Internatial Journal
