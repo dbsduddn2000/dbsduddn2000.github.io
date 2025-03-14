@@ -64,16 +64,11 @@ models and their application for AI systems.
 
 {% capture text %}
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-
-{%
-  include button.html
-  link="team"
-  text="Meet our team"
-  icon="fa-solid fa-arrow-right"
-  flip=true
-  style="bare"
-%}
+✓ Tuition fee + Research grant + Incentive for research achievements <br>
+✓ Provide High-performance GPU devices <br>
+✓ Full support for AI conference participation expenses <br>
+✓ Full support to publish on SCI journal & Top-tier conference paper <br>
+✓ Opportunity to participate the state-of-the-art research
 
 {% endcapture %}
 
@@ -81,6 +76,6 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
   include feature.html
   image="images/photo.jpg"
   link="team"
-  title="Our Team"
+  title="Student Supprots"
   text=text
 %}
