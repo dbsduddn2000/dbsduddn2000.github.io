@@ -39,12 +39,12 @@ models and their application for AI systems.
 
 {% capture text %}
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+Congratulations! <b>Jun-Hyeok</b> received an <b>우수발표논문상</b> in <b>KSC 2024</b>.
 
 {%
   include button.html
   link="projects"
-  text="Browse our projects"
+  text="Browse our News"
   icon="fa-solid fa-arrow-right"
   flip=true
   style="bare"
@@ -54,9 +54,9 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 {%
   include feature.html
-  image="images/photo.jpg"
+  image="images/news_photo.jpg"
   link="projects"
-  title="Our Projects"
+  title="Our News"
   flip=true
   style="bare"
   text=text
