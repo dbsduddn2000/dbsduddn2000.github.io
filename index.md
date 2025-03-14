@@ -74,7 +74,7 @@ models and their application for AI systems.
 
 {%
   include feature.html
-  image="images/photo.jpg"
+  image="images/interest_photo.jpg"
   link="team"
   title="Student Supports"
   text=text
