@@ -10,8 +10,6 @@ gesture recognition in surface EMG"
   image: images/stc_photo.jpg
   date: '2025-02'
   link: https://www.sciencedirect.com/science/article/pii/S001048252401610X
-  tags:
-  - Internatial Journal
   text: 2023-JCR-IF: 7.0, 2/66, Top2.3%
 - id: doi.org/10.1016/j.eswa.2024.125297
   title: "Deep scene understanding with extended text description for human object interaction
@@ -26,6 +24,4 @@ detection"
   image: images/DSU_photo.jpg
   date: '2025-01'
   link: https://www.sciencedirect.com/science/article/pii/S095741742402164X
-  tags:
-  - Internatial Journal
   text: 2023-JCR-IF: 7.5, 6/106, Top5.2%
