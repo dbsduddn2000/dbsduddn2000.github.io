@@ -6,10 +6,12 @@ gesture recognition in surface EMG"
   - Doheun Cha
   - Dong-Gyu Lee
   - Sangtae Ahn
-  publisher: Computers in Biology and Medicine (2023-JCR-IF: 7.0, 2/66, <b>Top 2.3%</b>)
+  publisher: Computers in Biology and Medicine (2023-JCR-IF: 7.0, 2/66, Top 2.3%)
   image: images/stc_photo.jpg
   date: '2025-02'
   link: https://www.sciencedirect.com/science/article/pii/S001048252401610X
+  tags:
+  - Internatial Journal
 - id: doi.org/10.1016/j.eswa.2024.125297
   title: "Deep scene understanding with extended text description for human object interaction
 detection"
