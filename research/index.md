@@ -7,8 +7,10 @@ nav:
 
 # {% include icon.html icon="fa-solid fa-microscope" %}Research
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+<b>Our current major research interest</b> <br>
+♦︎ <b>Robot Vision</b>: Imitation learning for robot manipulation with temporal skill abstractors
+♦︎ <b>Medical Image Processing</b>: Semi-supervised medical image segmentation regularizing logits between different networks
+♦︎ <b>Visual Question and Answering</b>: Visual question generation utilizing image and object-aware captions
 
 {% include section.html %}
 
