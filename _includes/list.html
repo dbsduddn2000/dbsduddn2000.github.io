@@ -19,6 +19,12 @@
     {% assign data = data | sort: "date" | reverse %}
   {% endif %}
 
+  {% if include.component == "members" %}
+    {% assign data = data | sort: "role" %}
+  {% elsif years.size > 1 %}
+    {% assign data = data | sort: "date" | reverse %}
+  {% endif %}
+
   {% for d in data %}
     {% assign style = d.style | default: include.style %}
 
