@@ -16,7 +16,8 @@ nav:
 
 ## Preprint
 
-Temp Description
+🗉 (<i>Under Review</i>) "Enhancing Multi-Hop Question Answering through Automatic Prompt Generation with Cycle Consistnecy of Thought," <i>Engineering
+Applications of Artificial Intelligence</i>(2023-JCR-IF: 7.5, 5/179, Top 2.5%)
 
 ## Published
 
