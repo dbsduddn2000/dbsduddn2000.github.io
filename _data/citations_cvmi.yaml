@@ -39,3 +39,282 @@ learning"
   link: https://www.sciencedirect.com/science/article/pii/S0020025524011915
   tags:
   - Internatial Journal
+- id: doi.org/10.1016/j.eswa.2024.124786
+  title: "ESC-ZSAR: Expanded Semantics from Categories with Cross-Attention for Zero-Shot Action Recognition"
+  authors:
+    - Jeong-Cheol Lee
+    - Dong-Gyu Lee
+  publisher: "Expert Systems With Applications"
+  image: images/ESC-ZSAR_photo.jpg
+  date: '2024-12'
+  link: ""
+  tags:
+    - International Journal
+
+- id: doi.org/10.1016/j.asoc.2024.111419
+  title: "High-density Cluster Core-based K-means Clustering with an Unknown Number of Clusters"
+  authors:
+    - Abhimanyu Kumar
+    - Abhishek Kumar
+    - Rammohan Mallipeddi
+    - Dong-Gyu Lee
+  publisher: "Applied Soft Computing"
+  image: images/HDCC-KMEANS_photo.jpg
+  date: '2024-04'
+  link: ""
+  tags:
+    - International Journal
+
+- id: ruda-edge
+  title: "Robust Unsupervised Domain Adaptation by Retaining Confident Entropy via Edge Concatenation"
+  authors:
+    - Hye-Seong Hong
+    - Abhishek Kumar
+    - Dong-Gyu Lee
+  publisher: "Expert Systems With Applications"
+  image: images/RUDA_photo.jpg
+  date: '2024-03'
+  link: ""
+  tags:
+    - International Journal
+
+- id: cmoea-clust
+  title: "A Constrained Multi-Objective Evolutionary Algorithm with Clustering based Weight Vector Adaptation"
+  authors:
+    - Sri Srinivasa Raju M
+    - Saykat Dutta
+    - Rammohan Mallipeddi
+    - Kedar Nath Das
+    - Dong-Gyu Lee
+  publisher: "Swarm and Evolutionary Computation"
+  image: images/CMOEA_photo.jpg
+  date: '2024-02'
+  link: ""
+  tags:
+    - International Journal
+
+- id: rssglt
+  title: "RSSGLT: Remote Sensing Image Segmentation Network based on Global-Local Transformer"
+  authors:
+    - Satyawant Kumar
+    - Abhishek Kumar
+    - Dong-Gyu Lee
+  publisher: "IEEE Geoscience and Remote Sensing Letters"
+  image: images/RSSGLT_photo.jpg
+  date: '2023-11'
+  link: ""
+  tags:
+    - International Journal
+
+- id: rewarded-mp
+  title: "Rewarded Meta-pruning: Meta Learning with Rewards for Channel Pruning"
+  authors:
+    - Athul Shibu
+    - Abhishek Kumar
+    - Heechul Jung
+    - Dong-Gyu Lee
+  publisher: "Mathematics"
+  image: images/RewardedMP_photo.jpg
+  date: '2023-12'
+  link: ""
+  tags:
+    - International Journal
+
+- id: evolvenet
+  title: "EvolveNet: Evolving Networks by Learning Scale of Depth and Width"
+  authors:
+    - Athul Shibu
+    - Dong-Gyu Lee
+  publisher: "Mathematics"
+  image: images/EvolveNet_photo.jpg
+  date: '2023-08'
+  link: ""
+  tags:
+    - International Journal
+
+- id: spherical-search
+  title: "Spherical Search with Epsilon Constraint and Gradient-based Repair Framework for Constrained Optimization"
+  authors:
+    - Zhuji Yang
+    - Abhishek Kumar
+    - Rammohan Mallipeddi
+    - Dong-Gyu Lee
+  publisher: "Swarm and Evolutionary Computation"
+  image: images/SphericalSearch_photo.jpg
+  date: '2023-10'
+  link: ""
+  tags:
+    - International Journal
+
+- id: cma-es
+  title: "CMA-ES with Exponential based Multiplicative Covariance Matrix Adaptation for Global Optimization"
+  authors:
+    - Bishal Karmakar
+    - Abhishek Kumar
+    - Rammohan Mallipeddi
+    - Dong-Gyu Lee
+  publisher: "Swarm and Evolutionary Computation"
+  image: images/CMA-ES_photo.jpg
+  date: '2023-04'
+  link: ""
+  tags:
+    - International Journal
+
+- id: ssuav
+  title: "Semantic Segmentation of UAV Images based on Transformer Framework with Context Information"
+  authors:
+    - Satyawant Kumar
+    - Abhishek Kumar
+    - Dong-Gyu Lee
+  publisher: "Mathematics"
+  image: images/SSUAV_photo.jpg
+  date: '2022-12'
+  link: ""
+  tags:
+    - International Journal
+
+- id: adaptive-sweep
+  title: "Adaptive Backward/Forward Sweep for Solving Power Flow of Islanded Microgrids"
+  authors:
+    - "Abhimanyu Kumar*"
+    - "Abhishek Kumar*"
+    - Rammohan Mallipeddi
+    - Dong-Gyu Lee
+  publisher: "Energies"
+  image: images/AdaptiveSweep_photo.jpg
+  date: '2022-12'
+  link: ""
+  tags:
+    - International Journal
+
+- id: hirf
+  title: "Human Interaction Recognition Framework based on Interacting Body Part Attention"
+  authors:
+    - Dong-Gyu Lee
+    - Seong-Whan Lee
+  publisher: "Pattern Recognition"
+  image: images/HIRF_photo.jpg
+  date: '2022-08'
+  link: ""
+  tags:
+    - International Journal
+
+- id: joint-semantic
+  title: "Joint Semantic Understanding with Multi-level Branch for Driving Perception"
+  authors:
+    - Dong-Gyu Lee
+    - Yoon-Ki Kim
+  publisher: "Applied Sciences"
+  image: images/JointSemantic_photo.jpg
+  date: '2022-03'
+  link: ""
+  tags:
+    - International Journal
+
+- id: mating-selection
+  title: "A Mating Selection Based on Modified Strengthened Dominance Relation for NSGA-III"
+  authors:
+    - Saykat Dutta
+    - Sri Srinivasa Raju M
+    - Rammohan Mallipeddi
+    - Kedar Nath Das
+    - Dong-Gyu Lee
+  publisher: "Mathematics"
+  image: images/MatingSelection_photo.jpg
+  date: '2021-11'
+  link: ""
+  tags:
+    - International Journal
+
+- id: drivable-areas
+  title: "Fast Drivable Areas Estimation with Multi-task Learning for Real-time Autonomous Driving Assistant"
+  authors:
+    - Dong-Gyu Lee
+  publisher: "Applied Sciences"
+  image: images/DrivableAreas_photo.jpg
+  date: '2021-11'
+  link: ""
+  tags:
+    - International Journal
+
+- id: salfmix
+  title: "SalfMix: A Novel Single Image-Based Data Augmentation Technique Using a Saliency Map"
+  authors:
+    - Jae-Hyeop Choi
+    - Chae-Hyeon Lee
+    - Dong-Gyu Lee
+    - Heechul Jung
+  publisher: "Sensors"
+  image: images/SalfMix_photo.jpg
+  date: '2021-12'
+  link: ""
+  tags:
+    - International Journal
+
+- id: vqa-lsare
+  title: "Visual Question Answering based on Local-Scene-Aware Referring Expression Generation"
+  authors:
+    - "Jung-Jun Kim*"
+    - "Dong-Gyu Lee*"
+    - Jialin Wu
+    - Hong-Gyu Jung
+    - Seong-Whan Lee
+  publisher: "Neural Networks"
+  image: images/VQA_photo.jpg
+  date: '2021-07'
+  link: ""
+  tags:
+    - International Journal
+
+- id: three-stream
+  title: "Three-Stream Fusion Network for First-Person Interaction Recognition"
+  authors:
+    - "Ye-Ji Kim*"
+    - "Dong-Gyu Lee*"
+    - Seong-Whan Lee
+  publisher: "Pattern Recognition"
+  image: images/ThreeStream_photo.jpg
+  date: '2020-07'
+  link: ""
+  tags:
+    - International Journal
+
+- id: partial-activity
+  title: "Prediction of Partially Observed Human Activity based on Pre-trained Deep Representation"
+  authors:
+    - Dong-Gyu Lee
+    - Seong-Whan Lee
+  publisher: "Pattern Recognition"
+  image: images/PartialActivity_photo.jpg
+  date: '2019-01'
+  link: ""
+  tags:
+    - International Journal
+
+- id: context-learning
+  title: "Discriminative Context Learning with Gated Recurrent Unit for Group Activity Recognition"
+  authors:
+    - Pil-Soo Kim
+    - Dong-Gyu Lee
+    - Seong-Whan Lee
+  publisher: "Pattern Recognition"
+  image: images/ContextLearning_photo.jpg
+  date: '2018-04'
+  link: ""
+  tags:
+    - International Journal
+
+- id: motion-influence
+  title: "Motion Influence Map for Unusual Human Activity Detection and Localization in Crowded Scenes"
+  authors:
+    - Dong-Gyu Lee
+    - Heung-Il Suk
+    - Sung-Kee Park
+    - Seong-Whan Lee
+  publisher: "IEEE Transactions on Circuits and Systems for Video Technology"
+  image: images/MotionInfluence_photo.jpg
+  date: '2015-01'
+  link: ""
+  tags:
+    - International Journal
+
