@@ -20,7 +20,7 @@ ms:
 
 msphd:
   icon: fa-solid fa-graduation-cap
-  description: Integrated M.S.-Ph.D. Student
+  description: M.S.-Ph.D. Student
 
 undergrad:
   icon: fa-solid fa-user-graduate
