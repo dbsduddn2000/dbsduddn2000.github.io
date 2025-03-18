@@ -16,8 +16,13 @@ nav:
 
 ## Preprint
 
-🗉 (<i>Under Review</i>) "Enhancing Multi-Hop Question Answering through Automatic Prompt Generation with Cycle Consistnecy of Thought," <i>Engineering
-Applications of Artificial Intelligence</i>(2023-JCR-IF: 7.5, 5/179, Top 2.5%)
+⌛ (<i>Under Review</i>) "Enhancing Multi-Hop Question Answering through Automatic Prompt Generation with Cycle Consistnecy of Thought," <i>Engineering
+Applications of Artificial Intelligence</i>(2023-JCR-IF: 7.5, 5/179, Top 2.5%)<br>
+⌛ (<i>Under Review</i>) "Automatic Network Compression via Evolutionary Search-guided Channel Pruning of Deep Convolutional Neural Networks," <i>Applied
+Soft Computing</i>(2023-JCR-IF: 7.2, 15/169, Top 8.6%)<br>
+⌛ (<i>Under Review</i>) "Pseudo-Supervised Contrastive Clustering," <i>Applied Sfot Computing</i>(2023-JCR-IF: 7.2, 15/169, Top 8.6%)<br>
+⌛ (<i>Under Review</i>) "Enriching Object-aware Image-Text Highlight Information for Visual Question Generation"<br>
+⌛ (<i>Under Review</i>) "Extended Consistency Regularization and Morphological Refinement for Semi-supervised 3D Medical Image Segmentation</i><br>
 
 ## Published
 
