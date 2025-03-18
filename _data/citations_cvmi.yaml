@@ -47,7 +47,7 @@ learning"
   publisher: "Expert Systems With Applications"
   image: images/ESC-ZSAR_photo.jpg
   date: '2024-12'
-  link: ""
+  link: "https://www.sciencedirect.com/science/article/pii/S0957417424016531"
   tags:
     - International Journal
 
@@ -61,11 +61,11 @@ learning"
   publisher: "Applied Soft Computing"
   image: images/HDCC-KMEANS_photo.jpg
   date: '2024-04'
-  link: ""
+  link: "https://www.sciencedirect.com/science/article/pii/S1568494624001935"
   tags:
     - International Journal
 
-- id: ruda-edge
+- id: doi.org/10.1016/j.eswa.2023.122120
   title: "Robust Unsupervised Domain Adaptation by Retaining Confident Entropy via Edge Concatenation"
   authors:
     - Hye-Seong Hong
@@ -74,11 +74,11 @@ learning"
   publisher: "Expert Systems With Applications"
   image: images/RUDA_photo.jpg
   date: '2024-03'
-  link: ""
+  link: "https://www.sciencedirect.com/science/article/pii/S0957417423026222"
   tags:
     - International Journal
 
-- id: cmoea-clust
+- id: doi.org/10.1016/j.swevo.2023.101432
   title: "A Constrained Multi-Objective Evolutionary Algorithm with Clustering based Weight Vector Adaptation"
   authors:
     - Sri Srinivasa Raju M
@@ -89,11 +89,11 @@ learning"
   publisher: "Swarm and Evolutionary Computation"
   image: images/CMOEA_photo.jpg
   date: '2024-02'
-  link: ""
+  link: "https://www.sciencedirect.com/science/article/pii/S2210650223002043"
   tags:
     - International Journal
 
-- id: rssglt
+- id: doi.org/10.1109/LGRS.2023.3337879
   title: "RSSGLT: Remote Sensing Image Segmentation Network based on Global-Local Transformer"
   authors:
     - Satyawant Kumar
@@ -102,11 +102,11 @@ learning"
   publisher: "IEEE Geoscience and Remote Sensing Letters"
   image: images/RSSGLT_photo.jpg
   date: '2023-11'
-  link: ""
+  link: "https://ieeexplore.ieee.org/document/10335744"
   tags:
     - International Journal
 
-- id: rewarded-mp
+- id: doi.org/10.3390/math11234849
   title: "Rewarded Meta-pruning: Meta Learning with Rewards for Channel Pruning"
   authors:
     - Athul Shibu
@@ -116,11 +116,11 @@ learning"
   publisher: "Mathematics"
   image: images/RewardedMP_photo.jpg
   date: '2023-12'
-  link: ""
+  link: "https://www.mdpi.com/2227-7390/11/23/4849"
   tags:
     - International Journal
 
-- id: evolvenet
+- id: doi.org/10.3390/math11163611
   title: "EvolveNet: Evolving Networks by Learning Scale of Depth and Width"
   authors:
     - Athul Shibu
@@ -128,11 +128,11 @@ learning"
   publisher: "Mathematics"
   image: images/EvolveNet_photo.jpg
   date: '2023-08'
-  link: ""
+  link: "https://www.mdpi.com/2227-7390/11/16/3611"
   tags:
     - International Journal
 
-- id: spherical-search
+- id: doi.org/10.1016/j.swevo.2023.101370
   title: "Spherical Search with Epsilon Constraint and Gradient-based Repair Framework for Constrained Optimization"
   authors:
     - Zhuji Yang
@@ -142,11 +142,11 @@ learning"
   publisher: "Swarm and Evolutionary Computation"
   image: images/SphericalSearch_photo.jpg
   date: '2023-10'
-  link: ""
+  link: "https://www.sciencedirect.com/science/article/pii/S2210650223001438"
   tags:
     - International Journal
 
-- id: cma-es
+- id: doi.org/10.1016/j.swevo.2023.101296
   title: "CMA-ES with Exponential based Multiplicative Covariance Matrix Adaptation for Global Optimization"
   authors:
     - Bishal Karmakar
@@ -156,11 +156,11 @@ learning"
   publisher: "Swarm and Evolutionary Computation"
   image: images/CMA-ES_photo.jpg
   date: '2023-04'
-  link: ""
+  link: "https://www.sciencedirect.com/science/article/pii/S221065022300069X"
   tags:
     - International Journal
 
-- id: ssuav
+- id: doi.org/10.3390/math10244735
   title: "Semantic Segmentation of UAV Images based on Transformer Framework with Context Information"
   authors:
     - Satyawant Kumar
@@ -169,11 +169,11 @@ learning"
   publisher: "Mathematics"
   image: images/SSUAV_photo.jpg
   date: '2022-12'
-  link: ""
+  link: "https://www.mdpi.com/2227-7390/10/24/4735"
   tags:
     - International Journal
 
-- id: adaptive-sweep
+- id: doi.org/10.3390/en15249348
   title: "Adaptive Backward/Forward Sweep for Solving Power Flow of Islanded Microgrids"
   authors:
     - "Abhimanyu Kumar*"
@@ -183,11 +183,11 @@ learning"
   publisher: "Energies"
   image: images/AdaptiveSweep_photo.jpg
   date: '2022-12'
-  link: ""
+  link: "https://www.mdpi.com/1996-1073/15/24/9348"
   tags:
     - International Journal
 
-- id: hirf
+- id: doi.org/10.1016/j.patcog.2022.108645
   title: "Human Interaction Recognition Framework based on Interacting Body Part Attention"
   authors:
     - Dong-Gyu Lee
@@ -195,11 +195,11 @@ learning"
   publisher: "Pattern Recognition"
   image: images/HIRF_photo.jpg
   date: '2022-08'
-  link: ""
+  link: "https://www.sciencedirect.com/science/article/pii/S0031320322001261"
   tags:
     - International Journal
 
-- id: joint-semantic
+- id: doi.org/10.3390/app12062877
   title: "Joint Semantic Understanding with Multi-level Branch for Driving Perception"
   authors:
     - Dong-Gyu Lee
@@ -207,11 +207,11 @@ learning"
   publisher: "Applied Sciences"
   image: images/JointSemantic_photo.jpg
   date: '2022-03'
-  link: ""
+  link: "https://www.mdpi.com/2076-3417/12/6/2877"
   tags:
     - International Journal
 
-- id: mating-selection
+- id: doi.org/10.3390/math9222837
   title: "A Mating Selection Based on Modified Strengthened Dominance Relation for NSGA-III"
   authors:
     - Saykat Dutta
@@ -222,7 +222,7 @@ learning"
   publisher: "Mathematics"
   image: images/MatingSelection_photo.jpg
   date: '2021-11'
-  link: ""
+  link: "https://www.mdpi.com/2227-7390/9/22/2837"
   tags:
     - International Journal
 
@@ -233,11 +233,11 @@ learning"
   publisher: "Applied Sciences"
   image: images/DrivableAreas_photo.jpg
   date: '2021-11'
-  link: ""
+  link: "https://www.mdpi.com/2076-3417/11/22/10713"
   tags:
     - International Journal
 
-- id: salfmix
+- id: doi.org/10.3390/s21248444
   title: "SalfMix: A Novel Single Image-Based Data Augmentation Technique Using a Saliency Map"
   authors:
     - Jae-Hyeop Choi
@@ -247,11 +247,11 @@ learning"
   publisher: "Sensors"
   image: images/SalfMix_photo.jpg
   date: '2021-12'
-  link: ""
+  link: "https://www.mdpi.com/1424-8220/21/24/8444"
   tags:
     - International Journal
 
-- id: vqa-lsare
+- id: doi.org/10.1016/j.neunet.2021.02.001
   title: "Visual Question Answering based on Local-Scene-Aware Referring Expression Generation"
   authors:
     - "Jung-Jun Kim*"
@@ -262,11 +262,11 @@ learning"
   publisher: "Neural Networks"
   image: images/VQA_photo.jpg
   date: '2021-07'
-  link: ""
+  link: "https://www.sciencedirect.com/science/article/pii/S0893608021000435"
   tags:
     - International Journal
 
-- id: three-stream
+- id: doi.org/10.1016/j.patcog.2020.107279
   title: "Three-Stream Fusion Network for First-Person Interaction Recognition"
   authors:
     - "Ye-Ji Kim*"
@@ -275,11 +275,11 @@ learning"
   publisher: "Pattern Recognition"
   image: images/ThreeStream_photo.jpg
   date: '2020-07'
-  link: ""
+  link: "https://www.sciencedirect.com/science/article/pii/S0031320320300844"
   tags:
     - International Journal
 
-- id: partial-activity
+- id: doi.org/10.1016/j.patcog.2018.08.006
   title: "Prediction of Partially Observed Human Activity based on Pre-trained Deep Representation"
   authors:
     - Dong-Gyu Lee
@@ -287,11 +287,11 @@ learning"
   publisher: "Pattern Recognition"
   image: images/PartialActivity_photo.jpg
   date: '2019-01'
-  link: ""
+  link: "https://www.sciencedirect.com/science/article/pii/S0031320318303042"
   tags:
     - International Journal
 
-- id: context-learning
+- id: doi.org/10.1016/j.patcog.2017.10.037
   title: "Discriminative Context Learning with Gated Recurrent Unit for Group Activity Recognition"
   authors:
     - Pil-Soo Kim
@@ -300,11 +300,11 @@ learning"
   publisher: "Pattern Recognition"
   image: images/ContextLearning_photo.jpg
   date: '2018-04'
-  link: ""
+  link: "https://www.sciencedirect.com/science/article/pii/S0031320317304430"
   tags:
     - International Journal
 
-- id: motion-influence
+- id: dio.org/10.1109/TCSVT.2015.2395752
   title: "Motion Influence Map for Unusual Human Activity Detection and Localization in Crowded Scenes"
   authors:
     - Dong-Gyu Lee
@@ -314,7 +314,7 @@ learning"
   publisher: "IEEE Transactions on Circuits and Systems for Video Technology"
   image: images/MotionInfluence_photo.jpg
   date: '2015-01'
-  link: ""
+  link: "https://ieeexplore.ieee.org/document/7024902"
   tags:
     - International Journal
 
