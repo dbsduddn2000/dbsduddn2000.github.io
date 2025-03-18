@@ -19,7 +19,7 @@
     {% assign data = data | sort: "date" | reverse %}
   {% endif %}
 
-  {% if include.component == "members" %}
+  {% if include.component == "portrait" %}
     {% assign data = data | sort: "role" %}
   {% elsif years.size > 1 %}
     {% assign data = data | sort: "date" | reverse %}
