@@ -57,6 +57,8 @@ models and their application for AI systems.
   image="images/news_photo.jpg"
   link="projects"
   title="Our News"
+  flip=true
+  style="bare"
   text=text
 %}
 
