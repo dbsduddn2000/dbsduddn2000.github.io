@@ -317,7 +317,7 @@ learning"
   link: "https://ieeexplore.ieee.org/document/7024902"
   tags:
     - International Journal
-- id: cvprw-2024
+- id: https://doi.org/10.48550/arXiv.2407.12055
   title: "Integrating Query-aware Segmentation and Cross-Attention for Robust VQA"
   authors:
   - Wonjun Choi
