@@ -28,6 +28,8 @@ Soft Computing</i>(2023-JCR-IF: 7.2, 15/169, Top 8.6%)<br>
 
 {% include search-box.html %}
 
+{% include tags.html tags=site.tags %}
+
 {% include search-info.html %}
 
 {% include list.html data="citations_cvmi" component="citation" style="rich" %}
