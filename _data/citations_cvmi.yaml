@@ -317,4 +317,18 @@ learning"
   link: "https://ieeexplore.ieee.org/document/7024902"
   tags:
     - International Journal
-
+- id: cvprw-2024
+  title: "Integrating Query-aware Segmentation and Cross-Attention for Robust VQA"
+  authors:
+  - Wonjun Choi
+  - Sangbeom Lee
+  - Seungyeon Lee
+  - Heechul Jung
+  - Dong-Gyu Lee
+  publisher: IEEE Conference on Computer Vision and Pattern Recognition Workshop (CVPRW)
+  date: '2024-06'
+  image: images/IQSC_photo.jpg
+  link: "https://arxiv.org/abs/2407.12055"
+  description: 3rd place Winner
+  tags:
+  - International Conference
