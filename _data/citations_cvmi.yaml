@@ -226,7 +226,7 @@ learning"
   tags:
     - International Journal
 
-- id: drivable-areas
+- id: doi.org/10.3390/app112210713
   title: "Fast Drivable Areas Estimation with Multi-task Learning for Real-time Autonomous Driving Assistant"
   authors:
     - Dong-Gyu Lee
@@ -397,46 +397,46 @@ learning"
   tags:
   - International Conference
 
-- id: iccas-2017
+- id: doi.org/10.23919/ICCAS.2017.8204447
   title: "Local Group Relationship Analysis for Group Activity Recognition"
   authors:
   - Dong-Gyu Lee
   - Pil-Soo Kim
   - Seong-Whan Lee
   publisher: Proc. 17th IEEE International Conference on Control, Automation and Systems (ICCAS)
-  date: '2017-10-17'
+  date: '2017-10'
   description: Oral Presentation
-  link: https://iccas.org/2017/
-  image: images/iccas_2017.jpg
+  link: "https://ieeexplore.ieee.org/document/8204447"
+  image: images/LGRA_photo.jpg
   tags:
   - International Conference
 
-- id: icpr-2016
+- id: doi.org/10.1109/ICPR.2016.7899939
   title: "Human Activity Prediction based on Sub-volume Relationship Descriptor"
   authors:
   - Dong-Gyu Lee
   - Seong-Whan Lee
   publisher: Proc. 23rd IAPR/IEEE International Conference on Pattern Recognition (ICPR)
-  date: '2016-12-04'
-  link: https://icpr2016.org/
-  image: images/icpr_2016.jpg
+  date: '2016-12'
+  link: "https://ieeexplore.ieee.org/abstract/document/7899939"
+  image: images/HAPS_photo.jpg
   tags:
   - International Conference
 
-- id: avss-2014
+- id: doi.org/10.1109/AVSS.2014.6918689
   title: "Modeling Crowd Motions for Abnormal Activity Detection"
   authors:
   - Dong-Gyu Lee
   - Heung-Il Suk
   - Seong-Whan Lee
   publisher: Proc. 11th IEEE International Conference on Advanced Videos and Signal Based Surveillance (AVSS)
-  date: '2014-08-26'
-  link: https://avss2014.org/
-  image: images/avss_2014.jpg
+  date: '2014-08'
+  link: "https://ieeexplore.ieee.org/abstract/document/6918689"
+  image: images/MCM_photo.jpg
   tags:
   - International Conference
 
-- id: acpr-2013
+- id: doi.org/10.1109/ACPR.2013.30
   title: "Crowd Behavior Representation Using Motion Influence Matrix for Anomaly Detection"
   authors:
   - Dong-Gyu Lee
@@ -445,7 +445,7 @@ learning"
   publisher: Proc. 2nd IAPR/IEEE Asian Conference on Pattern Recognition (ACPR)
   date: '2013-11'
   description: Oral Presentation
-  link: https://acpr2013.org/
-  image: images/acpr_2013.jpg
+  link: "https://ieeexplore.ieee.org/document/6778292"
+  image: images/CBRUM_photo.jpg
   tags:
   - International Conference
