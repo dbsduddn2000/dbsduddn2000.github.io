@@ -5,7 +5,7 @@ nav:
   tooltip: About Professor
 ---
 
-# {% include icon.html icon="fa-regular fa-envelope" %}Professor
+# {% include icon.html icon="fa-solid fa-users" %}Professor
 
 <div class="container" style="display: flex; align-items: center;">
   <div>
