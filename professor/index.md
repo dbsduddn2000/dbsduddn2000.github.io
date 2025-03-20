@@ -7,11 +7,11 @@ nav:
 
 # {% include icon.html icon="fa-solid fa-users" %}Professor
 
-<div class="container" style="display: flex; align-items: center; justify-content: space-between; gap: 80px;">
-  <div>
+<div class="container" style="display: flex; align-items: center; justify-content: center; gap: 80px;">
+  <div style="margin-right: auto;">
     {% include portrait.html lookup=page.slug %}
   </div>
-  <div>
+  <div style="display: flex; flex-direction: column; align-items: center; text-align: center;">
     fffffff
     {%
       include button.html
@@ -20,7 +20,6 @@ nav:
       link="dglee@knu.ac.kr"
     %}
   </div>
-  
 </div>
 
 
