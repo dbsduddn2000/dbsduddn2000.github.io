@@ -37,13 +37,36 @@ nav:
 
 ## Work Experiences
 
-2024.10 ~ Current ▶︎ Associate professor, School of Electronics Engineering, Kyungpook National University.<br>
-2024.10 ~ Current ▶︎ Associate professor, Department of Artificial Intelligence, Kyungpook National University.<br>
-2023.02 ~ 2024.09 ▶︎ Assistant professor, School of Electronics Engineering, Kyungpook National University.<br>
-2020.09 ~ 2024.09 ▶︎ Assistant professor, Department of Artificial Intelligence, Kyungpook National University.<br>
-2020.03 ~ 2020.08 ▶︎ Research professor, Department of Artificial Intelligence, Korea University.<br>
-2019.03 ~ 2020.03 ▶︎ Research engineer, SK Holdings C&C.<br>
-2014.06 ~ 2014.08 ▶︎ Visiting research scholar, University of California, Riverside.<br>
+<div style="display: flex; flex-direction: column;">
+  <div style="display: flex;">
+    <span style="min-width: 150px;">2024.10 ~ Current</span>
+    <span>▶︎ Associate professor, School of Electronics Engineering, Kyungpook National University.</span>
+  </div>
+  <div style="display: flex;">
+    <span style="min-width: 150px;">2024.10 ~ Current</span>
+    <span>▶︎ Associate professor, Department of Artificial Intelligence, Kyungpook National University.</span>
+  </div>
+  <div style="display: flex;">
+    <span style="min-width: 150px;">2023.02 ~ 2024.09</span>
+    <span>▶︎ Assistant professor, School of Electronics Engineering, Kyungpook National University.</span>
+  </div>
+  <div style="display: flex;">
+    <span style="min-width: 150px;">2020.09 ~ 2024.09</span>
+    <span>▶︎ Assistant professor, Department of Artificial Intelligence, Kyungpook National University.</span>
+  </div>
+  <div style="display: flex;">
+    <span style="min-width: 150px;">2020.03 ~ 2020.08</span>
+    <span>▶︎ Research professor, Department of Artificial Intelligence, Korea University.</span>
+  </div>
+  <div style="display: flex;">
+    <span style="min-width: 150px;">2019.03 ~ 2020.03</span>
+    <span>▶︎ Research engineer, SK Holdings C&C.</span>
+  </div>
+  <div style="display: flex;">
+    <span style="min-width: 150px;">2014.06 ~ 2014.08</span>
+    <span>▶︎ Visiting research scholar, University of California, Riverside.</span>
+  </div>
+</div>
 
 ## Education
 ▶︎ Ph. D. in Computer Science and Engineering, Korea University, 2019. (Supervisor: Prof.Seong-Whan Lee)<br>
