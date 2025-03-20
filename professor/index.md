@@ -7,22 +7,24 @@ nav:
 
 # {% include icon.html icon="fa-regular fa-envelope" %}Professor
 
-<div>
+<div class="container" style="display: flex; align-items: center;">
   <div>
     {% include portrait.html lookup=page.slug %}
   </div>
   <div>
     fffffff
+    {%
+      include button.html
+      type="email"
+      text="dglee@knu.ac.kr"
+      link="dglee@knu.ac.kr"
+    %}
   </div>
+  
 </div>
 
 
-{%
-  include button.html
-  type="email"
-  text="dglee@knu.ac.kr"
-  link="dglee@knu.ac.kr"
-%}
+
 
 {% include float.html content=floatcontent %}
 
