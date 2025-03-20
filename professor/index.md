@@ -7,15 +7,19 @@ nav:
 
 # {% include icon.html icon="fa-regular fa-envelope" %}Professor
 
-{% include portrait.html lookup=page.slug %}
-
 <div>
-  {% for link in page.links %}
-    {% assign key = link[0] %}
-    {% assign value = link[1] %}
-    {% include button.html type=key link=value style="bare" %}<br>
-  {% endfor %}
+  {% include portrait.html lookup=page.slug %}
+
+  Professor dddd
 </div>
+
+
+{%
+  include button.html
+  type="email"
+  text="dglee@knu.ac.kr"
+  link="dglee@knu.ac.kr"
+%}
 
 {% include float.html content=floatcontent %}
 
