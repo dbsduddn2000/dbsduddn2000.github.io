@@ -26,7 +26,7 @@ nav:
 </div>
 
 {% capture search -%}
-  research/?search={% for alias in aliases %}"{{ alias }}" {% endfor %}
+  research/?search="Dong-Gyu%20Lee" {% endfor %}
 {%- endcapture %}
 
 <p class="center">
@@ -35,6 +35,18 @@ nav:
   </a>
 </p>
 
-{% capture search -%}
-  blog/?search={{ page.name }}
-{%- endcapture %}
+## Work Experiences
+
+2024.10 ~ Current ▶︎ Associate professor, School of Electronics Engineering, Kyungpook National University.<br>
+2024.10 ~ Current ▶︎ Associate professor, Department of Artificial Intelligence, Kyungpook National University.<br>
+2023.02 ~ 2024.09 ▶︎ Assistant professor, School of Electronics Engineering, Kyungpook National University.<br>
+2020.09 ~ 2024.09 ▶︎ Assistant professor, Department of Artificial Intelligence, Kyungpook National University.<br>
+2020.03 ~ 2020.08 ▶︎ Research professor, Department of Artificial Intelligence, Korea University.<br>
+2019.03 ~ 2020.03 ▶︎ Research engineer, SK Holdings C&C.<br>
+2014.06 ~ 2014.08 ▶︎ Visiting research scholar, University of California, Riverside.<br>
+
+## Education
+▶︎ Ph. D. in Computer Science and Engineering, Korea University, 2019. (Supervisor: Prof.Seong-Whan Lee)<br>
+▶︎ B. S. in Computer Science and Engineering, Kwangwoon University, 2011.<br>
+
+## Professional Services
