@@ -7,7 +7,7 @@ nav:
 
 # {% include icon.html icon="fa-solid fa-users" %}Professor
 
-<div class="container" style="display: flex; align-items: center; gap: 20px;">
+<div class="container" style="display: flex; align-items: center; gap: 80px;">
   <div>
     {% include portrait.html lookup=page.slug %}
   </div>
