@@ -17,8 +17,6 @@ nav:
   {% endfor %}
 </div>
 
-{% endcapture %}
-
 {% include float.html content=floatcontent %}
 
 {{ content }}
