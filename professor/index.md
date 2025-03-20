@@ -5,7 +5,7 @@ nav:
   tooltip: About Professor
 ---
 
-{% capture floatcontent %}
+# {% include icon.html icon="fa-regular fa-envelope" %}Professor
 
 {% include portrait.html lookup=page.slug %}
 
