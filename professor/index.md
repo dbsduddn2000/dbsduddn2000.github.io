@@ -24,20 +24,6 @@ nav:
 </div>
 
 
-
-
-{% include float.html content=floatcontent %}
-
-{{ content }}
-
-{% assign aliases = page.aliases
-  | default: page.name
-  | default: page.title
-  | join: ","
-  | split: ","
-  | array_filter
-%}
-
 {% capture search -%}
   research/?search={% for alias in aliases %}"{{ alias }}" {% endfor %}
 {%- endcapture %}
