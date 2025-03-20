@@ -8,9 +8,12 @@ nav:
 # {% include icon.html icon="fa-regular fa-envelope" %}Professor
 
 <div>
-  {% include portrait.html lookup=page.slug %}
-
-  Professor dddd
+  <div>
+    {% include portrait.html lookup=page.slug %}
+  </div>
+  <div>
+    fffffff
+  </div>
 </div>
 
 
