@@ -18,7 +18,9 @@ layout: default
 
 {% include float.html content=floatcontent %}
 
-{{ content }}
+<div style="display: flex; flex-direction: column; align-items: center;">
+  {{ content }}
+</div>
 
 {% assign aliases = page.aliases
   | default: page.name
