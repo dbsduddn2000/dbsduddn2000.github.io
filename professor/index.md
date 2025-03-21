@@ -26,7 +26,7 @@ nav:
     </div>
   </div>
   <div style="display: flex; flex-direction: column; align-items: flex-start; text-align: left; position: absolute; left: 28%">
-    <b>Dong-Gyu Lee, Ph.D. (이동규)</b><br>
+    <h2><b>Dong-Gyu Lee, Ph.D. (이동규)</b></h2><br>
     ➤ Department of Artificial Intelligence (인공지능학과) & School of Electronics Engineering (전자공학부)<br>
     ➤ Kyungpook National University (경북대학교), South Korea<br>
     ➤ Office: Room 512, Techno Bldg., KNU
@@ -45,7 +45,7 @@ nav:
 
 <p class="center">
   <a href="{{ search | relative_url | uri_escape }}">
-    Search for {{ page.name | default: page.title }}'s papers on the Research page
+    Search for Professor's papers on the Research page
   </a>
 </p>
 
