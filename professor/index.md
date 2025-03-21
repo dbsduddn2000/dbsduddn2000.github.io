@@ -37,7 +37,7 @@ nav:
 
 ## Work Experiences
 
-<div style="display: flex; flex-direction: column;">
+<div style="flex-direction: column;">
   <div style="display: flex;">
     <span style="min-width: 150px;">2024.10 ~ Current</span>
     <span>▶︎ Associate professor, School of Electronics Engineering, Kyungpook National University.</span>
