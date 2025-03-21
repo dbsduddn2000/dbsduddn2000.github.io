@@ -551,16 +551,17 @@ learning"
   tags:
   - Domestic
 
-- id: kcc_2023_network_evolution
+- id: N/A
   title: "Learning Scale of Depth and Width for Network Evolution"
   authors:
   - Athul Shibu
   - Dong-Gyu Lee
   publisher: 2023 한국컴퓨터종합학술대회(KCC)
-  date: '2023-06-17'
-  link: ''
+  date: '2023-06'
+  link: 'https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE11488113'
+  image: images/LSDW_photo.jpg
   tags:
-  - Conference
+  - Domestic
 
 - id: kcc_2023_cafeteria_ml
   title: "효율적인 집단식사 서비스 제공을 위한 공공기관 구내식당 실데이터 기반의 식수 예측 기계학습 모델연구"
