@@ -9,7 +9,21 @@ nav:
 
 <div class="container" style="display: flex; align-items: center; position: relative;">
   <div style="display: flex;">
-    {% include portrait.html lookup=page.slug %}
+    <div class="portrait-wrapper">
+      <a
+        class="portrait"
+        data-style="{{ include.style }}"
+        aria-label="{{ member.name | default: "member link" | regex_strip }}"
+      >
+        <img
+          src="images/p_photo.jpg"
+          class="portrait-image"
+          alt="member portrait"
+          loading="lazy"
+          {% include fallback.html %}
+        >
+      </a>
+    </div>
   </div>
   <div style="display: flex; flex-direction: column; align-items: flex-start; text-align: left; position: absolute; left: 28%">
     <b>Dong-Gyu Lee, Ph.D. (이동규)</b><br>
