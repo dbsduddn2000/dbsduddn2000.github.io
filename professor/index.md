@@ -16,7 +16,7 @@ nav:
         aria-label="{{ member.name | default: "member link" | regex_strip }}"
       >
         <img
-          src="images/p_photo.jpg"
+          src="../images/p_photo.jpg"
           class="portrait-image"
           alt="member portrait"
           loading="lazy"
