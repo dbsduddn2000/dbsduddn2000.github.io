@@ -28,7 +28,7 @@ Soft Computing</i>(2023-JCR-IF: 7.2, 15/169, Top 8.6%)<br>
 
 {% include search-box.html %}
 
-{% include tags.html tags="international-journal, international-conference" %}
+{% include tags.html tags="international-journal, international-conference, domestic" %}
 
 {% include search-info.html %}
 
