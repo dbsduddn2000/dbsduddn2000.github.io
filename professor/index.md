@@ -39,31 +39,31 @@ nav:
 
 <div style="flex-direction: column;">
   <div style="display: flex;align-items: center;">
-    <span style="min-width: 150px;">2024.10 ~ Current</span>
+    <span style="min-width: 150px; "text-align: left;">2024.10 ~ Current</span>
     <span>▶︎ Associate professor, School of Electronics Engineering, Kyungpook National University.</span>
   </div>
   <div style="display: flex;align-items: center;">
-    <span style="min-width: 150px;">2024.10 ~ Current</span>
+    <span style="min-width: 150px; "text-align: left;">2024.10 ~ Current</span>
     <span>▶︎ Associate professor, Department of Artificial Intelligence, Kyungpook National University.</span>
   </div>
   <div style="display: flex;align-items: center;">
-    <span style="min-width: 150px;">2023.02 ~ 2024.09</span>
+    <span style="min-width: 150px; "text-align: left;">2023.02 ~ 2024.09</span>
     <span>▶︎ Assistant professor, School of Electronics Engineering, Kyungpook National University.</span>
   </div>
   <div style="display: flex;align-items: center;">
-    <span style="min-width: 150px;">2020.09 ~ 2024.09</span>
+    <span style="min-width: 150px; "text-align: left;">2020.09 ~ 2024.09</span>
     <span>▶︎ Assistant professor, Department of Artificial Intelligence, Kyungpook National University.</span>
   </div>
   <div style="display: flex;align-items: center;">
-    <span style="min-width: 150px;">2020.03 ~ 2020.08</span>
+    <span style="min-width: 150px; "text-align: left;">2020.03 ~ 2020.08</span>
     <span>▶︎ Research professor, Department of Artificial Intelligence, Korea University.</span>
   </div>
   <div style="display: flex;align-items: center;">
-    <span style="min-width: 150px;">2019.03 ~ 2020.03</span>
+    <span style="min-width: 150px; "text-align: left;">2019.03 ~ 2020.03</span>
     <span>▶︎ Research engineer, SK Holdings C&C.</span>
   </div>
   <div style="display: flex;align-items: center;">
-    <span style="min-width: 150px;">2014.06 ~ 2014.08</span>
+    <span style="min-width: 150px; "text-align: left;">2014.06 ~ 2014.08</span>
     <span>▶︎ Visiting research scholar, University of California, Riverside.</span>
   </div>
 </div>
