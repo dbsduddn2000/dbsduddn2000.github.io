@@ -1,23 +1,10 @@
-{% if include.tags %}
-  {% assign tags = include.tags
-    | object_items
-    | join: ","
-    | downcase
-    | split: ","
-    | array_filter
-    | join: ","
-    | regex_replace: "\s+", "-"
-    | split: ","
-    | uniq %}
-{% else %}
-  {% assign all_tags = "" | split: "," %}
-  {% for item in site.data.projects %}
-    {% if item.tags %}
-      {% assign all_tags = all_tags | concat: item.tags %}
-    {% endif %}
-  {% endfor %}
-  {% assign tags = all_tags | map: "downcase" | uniq | sort %}
-{% endif %}
+{%- assign all_tags = "" | split: "," %}
+{%- for item in site.data.projects %}
+  {% if item.tags %}
+    {% assign all_tags = all_tags | concat: item.tags %}
+  {% endif %}
+{%- endfor %}
+{% assign tags = all_tags | map: "downcase" | uniq | sort %}
 
 {% assign link = include.link | default: page.dir %}
 
@@ -30,6 +17,7 @@
 
 {% if tags.size > 0 %}
   <div class="tags">
+    <!-- All 버튼 -->
     <a
       href="{{ link }}"
       class="tag{% if current_tag == "" %} selected{% endif %}"
@@ -38,6 +26,7 @@
       All
     </a>
 
+    <!-- 모든 태그 버튼 -->
     {% for tag in tags %}
       <a
         href="{{ link }}?search=&quot;tag: {{ tag }}&quot;"
