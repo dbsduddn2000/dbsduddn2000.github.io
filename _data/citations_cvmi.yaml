@@ -682,3 +682,58 @@ learning"
   link: ''
   tags:
   - Symposium
+
+- id: C-2024-042455
+  title: "병렬 인공 신경망 구조 기반 준지도학습 의미론적 분할"
+  authors:
+  - 이동규
+  - 채종빈 
+  publisher: 한국저작권위원회
+  date: '2024-10-31'
+  link: 'https://www.cros.or.kr/psnsys/cmmn/infoPage.do?w2xPath=/ui/twc/cmmn/convenientDtl.xml&regId=C-2024-042455'
+  tags:
+  - S/W registered
+
+- id: C-2024-042454
+  title: "범주 텍스트 기반 개방형 어휘 의미론적 분할"
+  authors:
+  - 이동규
+  - 이정철  
+  publisher: 한국저작권위원회
+  date: '2024-10-31'
+  link: 'https://www.cros.or.kr/psnsys/cmmn/infoPage.do?w2xPath=/ui/twc/cmmn/convenientDtl.xml&regId=C-2024-042454'
+  tags:
+  - S/W registered
+
+- id: C-2024-042456
+  title: "사이클 일관성 기반 멀티홉 질의응답"
+  authors:
+  - 이동규
+  - 이승연  
+  publisher: 한국저작권위원회
+  date: '2024-10-31'
+  link: 'https://www.cros.or.kr/psnsys/cmmn/infoPage.do?w2xPath=/ui/twc/cmmn/convenientDtl.xml&regId=C-2024-042456'
+  tags:
+  - S/W registered
+
+- id: C-2023-060159
+  title: "비지도 학습 도메인 적응 의미론적 영상 분할"
+  authors:
+  - 이동규
+  - 홍혜성   
+  publisher: 한국저작권위원회
+  date: '2023-12-14'
+  link: 'https://www.cros.or.kr/psnsys/cmmn/infoPage.do?w2xPath=/ui/twc/cmmn/convenientDtl.xml&regId=C-2023-060159'
+  tags:
+  - S/W registered
+  
+- id: C-2023-060158
+  title: "확장된 텍스트 기반 제로-샷 행동 인식"
+  authors:
+  - 이동규
+  - 이정철   
+  publisher: 한국저작권위원회
+  date: '2023-12-14'
+  link: 'https://www.cros.or.kr/psnsys/cmmn/infoPage.do?w2xPath=/ui/twc/cmmn/convenientDtl.xml&regId=C-2023-060158'
+  tags:
+  - S/W registered
