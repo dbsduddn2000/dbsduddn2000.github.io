@@ -5,6 +5,11 @@
   | data_filter: include.filter
 %}
 
+{% if include.tag_filter %}
+  {% assign tag = include.tag_filter %}
+  {% assign data = data | where_exp: "d", "d.tags contains tag" %}
+{% endif %}
+
 {% assign years = data
   | group_by_exp: "d", "d.date | date: '%Y'"
   | sort: "name"
@@ -15,7 +20,7 @@
   {% assign data = year.items %}
 
   {% if years.size > 1 %}
-    {{--}}<h3 id="{{ year.name }}">{{ year.name }}</h3>
+    <h3 id="{{ year.name }}">{{ year.name }}</h3>
     {% assign data = data | sort: "date" | reverse %}
   {% endif %}
 
