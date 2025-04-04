@@ -1,15 +1,30 @@
-{% assign tags = include.tags
-  | object_items
-  | join: ","
-  | downcase
-  | split: ","
-  | array_filter
-  | join: ","
-  | regex_replace: "\s+", "-"
-  | split: ","
-  | uniq
-%}
+{% if include.tags %}
+  {% assign tags = include.tags
+    | object_items
+    | join: ","
+    | downcase
+    | split: ","
+    | array_filter
+    | join: ","
+    | regex_replace: "\s+", "-"
+    | split: ","
+    | uniq
+  %}
+{% else %}
+  {% assign raw_tags = site.data.projects | map: "tags" | join: "," %}
+  {% assign tags = raw_tags
+    | downcase
+    | split: ","
+    | array_filter
+    | join: ","
+    | regex_replace: "\s+", "-"
+    | split: ","
+    | uniq
+  %}
+{% endif %}
+
 {% assign link = include.link | default: page.dir %}
+
 {% if tags.size > 0 or include.repo %}
   <div
     class="tags"
