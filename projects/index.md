@@ -15,23 +15,15 @@ nav:
 {% assign tag_filter = "" %}
 {% if search_param contains "tag:" %}
   {% assign tag_parts = search_param | split: "tag:" %}
-  {% assign tag_filter = tag_parts[1] | downcase | strip | replace: '"', '' %}
+  {% assign tag_filter = tag_parts[1] | downcase | strip | remove: '"' | remove: '&quot;' %}
 {% endif %}
 
 ## Ongoing Projects
 
-{% if tag_filter != "" %}
-  {% include list.html component="card" data="projects" filter="group == 'ongoing' and tags contains tag_filter" %}
-{% else %}
-  {% include list.html component="card" data="projects" filter="group == 'ongoing'" %}
-{% endif %}
+{% include list.html component="card" data="projects" filter="group == 'ongoing'" tag_filter=tag_filter %}
 
 {% include section.html %}
 
 ## Completed Projects
 
-{% if tag_filter != "" %}
-  {% include list.html component="card" data="projects" filter="group == 'completed' and tags contains tag_filter" style="small" %}
-{% else %}
-  {% include list.html component="card" data="projects" filter="group == 'completed'" style="small" %}
-{% endif %}
+{% include list.html component="card" data="projects" filter="group == 'completed'" tag_filter=tag_filter style="small" %}
