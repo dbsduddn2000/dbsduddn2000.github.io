@@ -1,4 +1,4 @@
-{% if include.tags %}
+{%- if include.tags %}
   {% assign tags = include.tags
     | object_items
     | join: ","
@@ -10,20 +10,27 @@
     | split: ","
     | uniq
   %}
-{% else %}
-  {% assign raw_tags = site.data.projects | map: "tags" | join: "," %}
-  {% assign tags = raw_tags
-    | downcase
-    | split: ","
-    | array_filter
-    | join: ","
-    | regex_replace: "\s+", "-"
-    | split: ","
+{%- else %}
+  {%- assign all_tags = "" | split: "," %}
+  {%- for item in site.data.projects %}
+    {% if item.tags %}
+      {% assign all_tags = all_tags | concat: item.tags %}
+    {% endif %}
+  {%- endfor %}
+  {% assign tags = all_tags
+    | map: "downcase"
     | uniq
-  %}
-{% endif %}
+    | sort %}
+{%- endif %}
 
 {% assign link = include.link | default: page.dir %}
+
+{%- assign current_search = page.url | split: '?' | last | uri_decode -%}
+{%- assign current_tag = "" -%}
+{%- if current_search contains "tag:" -%}
+  {% assign tag_parts = current_search | split: "tag:" %}
+  {% assign current_tag = tag_parts[1] | downcase | strip | replace: '"', '' %}
+{%- endif %}
 
 {% if tags.size > 0 or include.repo %}
   <div
@@ -38,7 +45,7 @@
     {% for tag in tags %}
       <a
         href="{{ link }}?search=&quot;tag: {{ tag }}&quot;"
-        class="tag"
+        class="tag{% if tag == current_tag %} selected{% endif %}"
         data-tooltip="Show items with the tag &quot;{{ tag }}&quot;"
       >
         {{ tag }}
