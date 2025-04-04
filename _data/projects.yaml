@@ -1,47 +1,49 @@
-- title: Cool Dataset
-  subtitle: a subtitle
-  group: Ongoing Projects
+- title: 복합정보 기반 예측 지능 혁신 기술 연구 (ITRC)
+  subtitle: 2021.01.01 ~ 2025.12.31.
+  group: ongoing
   image: images/photo.jpg
   # link: https://github.com/
-  description: Lorem ipsum _dolor sit amet_, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+  description: (공동) 정보통신기획평가원(IITP), 과학기술정보통신부, 대학 ICT 연구센터
   repo: greenelab/lab-website-template
   tags:
     - resource
 
-- title: Cool Package
-  subtitle: a subtitle
-  group: featured
+- title: 초광역 연합 심혈관 AI의료 기술에 관한 연구
+  subtitle: 2024. 07. 01 ~  2029. 12. 31.
+  group: ongoing
   image: images/photo.jpg
   # link: https://github.com/
-  description: Lorem ipsum _dolor sit amet_, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+  description: (공동) 정보통신기획평가원(IITP), 과학기술정보통신부, 대학 ICT 연구센터
   repo: greenelab/lab-website-template
   tags:
     - resource
 
-- title: Cool Tutorial
-  subtitle: a subtitle
+- title: 딥러닝/외부지식베이스 기반 새로운 동영상 인식 및 설명생성 기술 개발
+  subtitle: 2021.03. 01. ~ 2025. 02. 28.
+  group: completed
   image: images/photo.jpg
   # link: https://github.com/
-  description: Lorem ipsum _dolor sit amet_, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+  description: (책임) 한국연구재단(NRF), 교육부, 우수신진연구
   repo: greenelab/lab-website-template
   tags:
     - resource
-    - publication
 
-- title: Cool Web App
-  subtitle: a subtitle
+- title: 물리지능 시스템을 위한 행동인지 학습제어 기초연구실 (BRL)
+  subtitle: 2022. 06. 01~ 2025. 02. 28.
+  group: completed
   image: images/photo.jpg
   # link: https://github.com/
-  description: Lorem ipsum _dolor sit amet_, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+  description: (공동) 한국연구재단(NRF), 교육부, 기초연구실(Basic Research Lab.)
   repo: greenelab/lab-website-template
   tags:
     - software
 
-- title: Cool Web Server
-  subtitle: a subtitle
+- title: 에어솔루션 사업부 구성원 AI/빅데이터 관련 DX 역량강화 워크샵
+  subtitle: 2023.07.01.~2024.02.29.
+  group: completed
   image: images/photo.jpg
   # link: https://github.com/
-  description: Lorem ipsum _dolor sit amet_, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+  description: (공동) LG전자
   repo: greenelab/lab-website-template
   tags:
     - software
