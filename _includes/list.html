@@ -5,6 +5,17 @@
   | data_filter: include.filter
 %}
 
+{%- assign search_param = page.url | split: '?' | last | uri_decode -%}
+{%- assign tag_filter = "" -%}
+{%- if search_param contains "tag:" -%}
+  {%- assign tag_parts = search_param | split: "tag:" -%}
+  {%- assign tag_filter = tag_parts[1] | downcase | strip | replace: '"', '' -%}
+{%- endif -%}
+
+{%- if tag_filter != "" -%}
+  {% assign data = data | where_exp: "d", "d.tags contains tag_filter" %}
+{%- endif -%}
+
 {% assign years = data
   | group_by_exp: "d", "d.date | date: '%Y'"
   | sort: "name"
