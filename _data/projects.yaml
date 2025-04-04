@@ -1,3 +1,4 @@
+# Ongoing Projects
 - title: 복합정보 기반 예측 지능 혁신 기술 연구 (ITRC)
   subtitle: 2021.01.01 ~ 2025.12.31.
   group: ongoing
@@ -8,8 +9,38 @@
   tags:
     - resource
 
+- title: SW중심대학지원사업(경북대학교)
+  subtitle: 2021.04.01 ~ 2026.12.31.
+  group: ongoing
+  image: images/photo.jpg
+  # link: https://github.com/
+  description: (참여교수) 정보통신기획평가원(IITP), 과학기술정보통신부, SW중심대학
+  repo: greenelab/lab-website-template
+  tags:
+    - resource
+
+- title: 인공지능 혁신공유대학 사업
+  subtitle: 2021.05.01 ~ 2027.02.28.
+  group: ongoing
+  image: images/photo.jpg
+  # link: https://github.com/
+  description: (참여교수) 한국연구재단(NRF), 교육부, 디지털 신기술 인재양성 혁신공유대학
+  repo: greenelab/lab-website-template
+  tags:
+    - resource
+
+- title: 국토교통 DNA플러스 안전분야 융합기술대학원
+  subtitle: 2023.04.01 ~ 2028.12.31.
+  group: ongoing
+  image: images/photo.jpg
+  # link: https://github.com/
+  description: (참여교수) 국토교통과학기술진흥원
+  repo: greenelab/lab-website-template
+  tags:
+    - resource
+
 - title: 초광역 연합 심혈관 AI의료 기술에 관한 연구
-  subtitle: 2024. 07. 01 ~  2029. 12. 31.
+  subtitle: 2024.07.01 ~ 2029.12.31.
   group: ongoing
   image: images/photo.jpg
   # link: https://github.com/
@@ -18,8 +49,120 @@
   tags:
     - resource
 
+
+# Completed Projects
+- title: 확률 네트워크 기반의 개별 및 Human Group 행동 분석 기술 개발
+  subtitle: 2011.03.01 ~ 2017.02.28.
+  group: completed
+  image: images/photo.jpg
+  # link: https://github.com/
+  description: (참여연구원) 기초기술연구회
+  repo: greenelab/lab-website-template
+  tags:
+    - software
+
+- title: 인식센서융합 기반 실 환경하에서 임의의 사용자 30명에 대해 인식률 99%에 근접하는 사용자의 신원과 행위 및 위치 정보 인식 기술 개발
+  subtitle: 2012.06.01 ~ 2017.05.31.
+  group: completed
+  image: images/photo.jpg
+  # link: https://github.com/
+  description: (참여연구원) 산업자원통산부
+  repo: greenelab/lab-website-template
+  tags:
+    - software
+
+- title: (Deep view) 예지형 시각 지능 원천 기술 개발
+  subtitle: 2014.04.01 ~ 2019.02.25.
+  group: completed
+  image: images/photo.jpg
+  # link: https://github.com/
+  description: (참여연구원) 정보통신기획평가원(IITP)
+  repo: greenelab/lab-website-template
+  tags:
+    - software
+
+- title: Deep Learning 기반의 보행자 안전 지원 스마트카 비전 기술의 개발
+  subtitle: 2016.04.01 ~ 2019.02.25.
+  group: completed
+  image: images/photo.jpg
+  # link: https://github.com/
+  description: (참여연구원) 정보통신기획평가원(IITP)
+  repo: greenelab/lab-website-template
+  tags:
+    - resource
+
+- title: ESS Anomaly Detection 알고리즘 개발
+  subtitle: 2019.03.22 ~ 2019.09.30.
+  group: completed
+  image: images/photo.jpg
+  # link: https://github.com/
+  description: (참여연구원) 현대일렉트릭
+  repo: greenelab/lab-website-template
+  tags:
+    - software
+
+- title: Tunnel Boring Machine(TBM)의 전방 지질 예측 및 운전 자동화
+  subtitle: 2019.11.09 ~ 2020.01.30.
+  group: completed
+  image: images/photo.jpg
+  # link: https://github.com/
+  description: (참여연구원) SK건설
+  repo: greenelab/lab-website-template
+  tags:
+    - resource
+
+- title: 딥러닝 기반 Battery Cell 영상 자동 분류 및 불량 검출 시스템 구축
+  subtitle: 2020.01.01 ~ 2020.03.18.
+  group: completed
+  image: images/photo.jpg
+  # link: https://github.com/
+  description: (참여연구원) SK이노베이션
+  repo: greenelab/lab-website-template
+  tags:
+    - software
+
+- title: 에어솔루션 사업부 내 DX역량강화를 위한 실무 컨설팅
+  subtitle: 2022. 06. 20 ~ 2022. 09. 16.
+  group: completed
+  image: images/photo.jpg
+  # link: https://github.com/
+  description: (공동) LG전자
+  repo: greenelab/lab-website-template
+  tags:
+    - software
+
+- title: 자동차산업미래기술혁신을위한오픈플랫폼생태계구축
+  subtitle: 2021.04.01 ~ 2023.12.31.
+  group: completed
+  image: images/photo.jpg
+  # link: https://github.com/
+  description: (공동) 한국산업기술진흥원(KIAT), 산업통산자원부
+  repo: greenelab/lab-website-template
+  tags:
+    - software
+
+- title: BK21 FOUR 경북대 AI융합혁신인재양성 교육연구단
+  subtitle: 2020.09.01 ~ 2024. 02. 28.
+  group: completed
+  image: images/photo.jpg
+  # link: https://github.com/
+  description: (참여교수) 한국연구재단(NRF), 교육부, 4단계 BK21 FOUR
+  repo: greenelab/lab-website-template
+  tags:
+    - resource
+
+- title: 에어솔루션 사업부 구성원 AI/빅데이터 관련 DX 역량강화 워크샵
+  subtitle: 2023.07.01 ~ 2024.02.29.
+  group: completed
+  image: images/photo.jpg
+  # link: https://github.com/
+  description: (공동) LG전자
+  repo: greenelab/lab-website-template
+  tags:
+    - software
+
 - title: 딥러닝/외부지식베이스 기반 새로운 동영상 인식 및 설명생성 기술 개발
-  subtitle: 2021.03. 01. ~ 2025. 02. 28.
+  subtitle: 2021.03.01 ~ 2025.02.28.
   group: completed
   image: images/photo.jpg
   # link: https://github.com/
@@ -29,21 +172,11 @@
     - resource
 
 - title: 물리지능 시스템을 위한 행동인지 학습제어 기초연구실 (BRL)
-  subtitle: 2022. 06. 01~ 2025. 02. 28.
+  subtitle: 2022.06.01 ~ 2025.02.28.
   group: completed
   image: images/photo.jpg
   # link: https://github.com/
   description: (공동) 한국연구재단(NRF), 교육부, 기초연구실(Basic Research Lab.)
   repo: greenelab/lab-website-template
   tags:
-    - software
-
-- title: 에어솔루션 사업부 구성원 AI/빅데이터 관련 DX 역량강화 워크샵
-  subtitle: 2023.07.01.~2024.02.29.
-  group: completed
-  image: images/photo.jpg
-  # link: https://github.com/
-  description: (공동) LG전자
-  repo: greenelab/lab-website-template
-  tags:
-    - software
+    - resource
