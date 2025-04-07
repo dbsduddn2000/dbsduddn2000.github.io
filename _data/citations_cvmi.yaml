@@ -450,7 +450,7 @@ learning"
   tags:
   - International Conference
 
-- id: N/A
+- id: -
   title: "다중 스케일 고주파 오류 맵을 활용한 확산 모델 기반 이미지 초해상화"
   authors:
   - 서준혁
@@ -463,7 +463,7 @@ learning"
   tags:
   - Domestic
 
-- id: N/A
+- id: -
   title: "하위 작업 명세 기반 모방 학습 프레임워크"
   authors:
   - 이정철
@@ -475,7 +475,7 @@ learning"
   tags:
   - Domestic
 
-- id: N/A
+- id: -
   title: "부정 샘플 선택 전략을 통한 비지도 학습"
   authors:
   - 윤영우
@@ -487,7 +487,7 @@ learning"
   tags:
   - Domestic
 
-- id: N/A
+- id: -
   title: "객체 판단을 위한 레이더 및 열상관측장비의 연계 방안 연구"
   authors:
   - 정성빈
@@ -503,7 +503,7 @@ learning"
   tags:
   - Domestic
 
-- id: N/A
+- id: -
   title: "공공기관 구내식당 식수 예측 모델개발 및 변수 선정 연구"
   authors:
   - 정영한
@@ -515,7 +515,7 @@ learning"
   tags:
   - Domestic
 
-- id: N/A
+- id: -
   title: "범주 텍스트 기반 개방형 어휘 의미론적 분할"
   authors:
   - 이정철
@@ -527,7 +527,7 @@ learning"
   tags:
   - Domestic
 
-- id: N/A
+- id: -
   title: "준지도학습 기반 의미론적 분할 프레임워크"
   authors:
   - 채종빈
@@ -539,7 +539,7 @@ learning"
   tags:
   - Domestic
 
-- id: N/A
+- id: -
   title: "제로샷 행동 인식을 위한 멀티모달 크로스 어텐션"
   authors:
   - 이정철
@@ -551,7 +551,7 @@ learning"
   tags:
   - Domestic
 
-- id: N/A
+- id: -
   title: "Learning Scale of Depth and Width for Network Evolution"
   authors:
   - Athul Shibu
