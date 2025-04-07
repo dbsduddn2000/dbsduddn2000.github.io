@@ -1,15 +1,16 @@
+{%- assign input_data = include.data | default: site.data.projects %}
 {%- assign all_tags = "" | split: "," %}
-{%- for item in site.data.projects %}
+
+{%- for item in input_data %}
   {% if item.tags %}
     {%- for t in item.tags %}
       {% assign all_tags = all_tags | push: t %}
     {%- endfor %}
   {% endif %}
 {%- endfor %}
+
 {% assign tags = all_tags | uniq | sort %}
-
 {% assign link = include.link | default: page.dir %}
-
 {% assign current_search = page.url | split: '?' | last | uri_decode %}
 {% assign current_tag = "" %}
 {% if current_search contains "tag:" %}
@@ -20,20 +21,16 @@
 {% if tags.size > 0 %}
   <div class="tags">
     {% unless include.disable_all %}
-      <a
-        href="{{ link }}"
-        class="tag{% if current_tag == "" %} selected{% endif %}"
-        data-tooltip="Show all items"
-      >
+      <a href="{{ link }}" class="tag{% if current_tag == "" %} selected{% endif %}" data-tooltip="Show all items">
         All
       </a>
     {% endunless %}
 
     {% for tag in tags %}
       <a
-        href="{{ link }}?search=&quot;tag: {{ tag | downcase }}&quot;"
-        class="tag{% if tag == current_tag %} selected{% endif %}"
-        data-tooltip="Show items with the tag &quot;{{ tag }}&quot;"
+        href="{{ link }}?search=&quot;tag:{{ tag | downcase }}&quot;"
+        class="tag{% if tag | downcase == current_tag %} selected{% endif %}"
+        data-tooltip="Show items with the tag '{{ tag }}'"
       >
         {{ tag }}
       </a>
