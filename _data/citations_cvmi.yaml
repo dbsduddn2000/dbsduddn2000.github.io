@@ -683,6 +683,20 @@ learning"
   tags:
   - Symposium
 
+- id: 10-2024-0197118
+  title: "사고의 사이클 일관성을 활용하여 질문홉 질의 응답을 수행하는 질문홉 질의응답 시스템 및 동작 방법"
+  authors:
+  - 이동규
+  - 이상준
+  - 이성환
+  date: '2018-06'
+  link: https://www.kipris.or.kr/khome/search/searchResult.do
+  image: 
+  tags:
+  - Patent
+
+
+
 - id: C-2024-042455
   title: "병렬 인공 신경망 구조 기반 준지도학습 의미론적 분할"
   authors:
