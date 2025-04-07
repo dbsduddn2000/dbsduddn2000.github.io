@@ -15,15 +15,18 @@ nav:
 ## Ongoing Projects
 
 {% for p in ongoing_projects %}
-  {% include card.html
-    title=p.title
-    subtitle=p.subtitle
-    description=p.description
-    image=p.image
-    tags=p.tags
-    repo=p.repo
-    link=p.link
-  %}
+  {% assign tags = p.tags | join: "," | downcase %}
+  {% if tag_filter == "" or tags contains tag_filter %}
+    {% include card.html
+      title=p.title
+      subtitle=p.subtitle
+      description=p.description
+      image=p.image
+      tags=p.tags
+      repo=p.repo
+      link=p.link
+    %}
+  {% endif %}
 {% endfor %}
 
 {% include section.html %}
@@ -31,14 +34,17 @@ nav:
 ## Completed Projects
 
 {% for p in completed_projects %}
-  {% include card.html
-    title=p.title
-    subtitle=p.subtitle
-    description=p.description
-    image=p.image
-    tags=p.tags
-    repo=p.repo
-    link=p.link
-    style="small"
-  %}
+  {% assign tags = p.tags | join: "," | downcase %}
+  {% if tag_filter == "" or tags contains tag_filter %}
+    {% include card.html
+      title=p.title
+      subtitle=p.subtitle
+      description=p.description
+      image=p.image
+      tags=p.tags
+      repo=p.repo
+      link=p.link
+      style="small"
+    %}
+  {% endif %}
 {% endfor %}
