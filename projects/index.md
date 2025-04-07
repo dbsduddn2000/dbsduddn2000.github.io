@@ -14,6 +14,7 @@ nav:
 
 ## Ongoing Projects
 
+{% assign tag_filter = tag_filter | downcase %}
 {% for p in ongoing_projects %}
   {% assign tags = p.tags | join: "," | downcase %}
   {% if tag_filter == "" or tags contains tag_filter %}
@@ -29,10 +30,12 @@ nav:
   {% endif %}
 {% endfor %}
 
+
 {% include section.html %}
 
 ## Completed Projects
 
+{% assign tag_filter = tag_filter | downcase %}
 {% for p in completed_projects %}
   {% assign tags = p.tags | join: "," | downcase %}
   {% if tag_filter == "" or tags contains tag_filter %}
