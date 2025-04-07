@@ -18,7 +18,7 @@ nav:
 {% assign ongoing_projects = site.data.projects | where: "group", "ongoing" %}
 {% assign completed_projects = site.data.projects | where: "group", "completed" %}
 
-{% include tags.html data=site.data.projects %}
+{% include tags.html data_name="projects" %}
 
 ## Ongoing Projects
 
