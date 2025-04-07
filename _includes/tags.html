@@ -1,39 +1,30 @@
-{%- if include.data_name == nil %}
-  <p style="color: red; font-weight: bold;">Error: data_name not provided to tags.html include</p>
-{%- endif %}
-
-{%- assign dataset = site.data[include.data_name] %}
-{%- assign all_tags = "" | split: "," %}
-
-{%- for item in dataset %}
-  {% if item.tags %}
-    {%- for t in item.tags %}
-      {% assign all_tags = all_tags | push: t %}
-    {%- endfor %}
-  {% endif %}
-{%- endfor %}
-
-{% assign tags = all_tags | uniq | sort %}
+{% assign tags = include.tags
+  | object_items
+  | join: ","
+  | downcase
+  | split: ","
+  | array_filter
+  | join: ","
+  | regex_replace: "\s+", "-"
+  | split: ","
+  | uniq
+%}
 {% assign link = include.link | default: page.dir %}
-{% assign current_search = page.url | split: '?' | last | uri_decode %}
-{% assign current_tag = "" %}
-{% if current_search contains "tag:" %}
-  {% assign tag_parts = current_search | split: "tag:" %}
-  {% assign current_tag = tag_parts[1] | downcase | strip | remove: '"' | remove: '&quot;' %}
-{% endif %}
-
-{% if tags.size > 0 %}
-  <div class="tags">
-    {% unless include.disable_all %}
-      <a href="{{ link }}" class="tag{% if current_tag == "" %} selected{% endif %}" data-tooltip="Show all items">
-        All
-      </a>
-    {% endunless %}
+{% if tags.size > 0 or include.repo %}
+  <div
+    class="tags"
+    {% if include.repo %}
+      data-repo="{{ include.repo | xml_escape }}"
+    {% endif %}
+    {% if link %}
+      data-link="{{ link | relative_url | xml_escape }}"
+    {% endif %}
+  >
     {% for tag in tags %}
       <a
-        href="{{ link }}?search=&quot;tag:{{ tag | downcase }}&quot;"
-        class="tag{% if tag | downcase == current_tag %} selected{% endif %}"
-        data-tooltip="Show items with the tag '{{ tag }}'"
+        href="{{ link }}?search=&quot;tag: {{ tag }}&quot;"
+        class="tag"
+        data-tooltip="Show items with the tag &quot;{{ tag }}&quot;"
       >
         {{ tag }}
       </a>
