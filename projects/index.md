@@ -17,7 +17,7 @@ Projects page
     {%- endfor -%}
   {%- endif -%}
 {%- endfor -%}
-{%- assign all_tags = all_tags | sort -%}
+{%- assign all_tags = all_tags | split: "," | uniq | sort -%}
 
 {% include tags.html tags=all_tags %}
 
