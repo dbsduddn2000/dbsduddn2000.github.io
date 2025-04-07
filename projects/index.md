@@ -5,9 +5,7 @@ nav:
   tooltip: Software, datasets, and more
 ---
 
-# {% include icon.html icon="fa-solid fa-wrench" %}Projects
-
-{% include tags.html data=site.data.projects %}
+# {% include icon.html icon="fa-solid fa-wrench" %} Projects
 
 {% assign query = page.url | split: '?' | last | uri_decode %}
 {% assign tag_filter = "" %}
@@ -17,14 +15,17 @@ nav:
   {% assign tag_filter = query | split: "tag:" | last | split: "&" | first | strip | downcase %}
 {% endif %}
 
+{% assign ongoing_projects = site.data.projects | where: "group", "ongoing" %}
+{% assign completed_projects = site.data.projects | where: "group", "completed" %}
+
+{% include tags.html data=site.data.projects %}
+
 ## Ongoing Projects
 
-{% assign ongoing_projects = site.data.projects | where: "group", "ongoing" %}
 {% include list.html data=ongoing_projects component="card" tag_filter=tag_filter %}
 
 {% include section.html %}
 
 ## Completed Projects
 
-{% assign completed_projects = site.data.projects | where: "group", "completed" %}
 {% include list.html data=completed_projects component="card" tag_filter=tag_filter style="small" %}
