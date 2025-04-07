@@ -1,7 +1,8 @@
-{%- assign input_data = include.data | default: site.data.projects %}
 {%- assign all_tags = "" | split: "," %}
+{%- assign input_data = include.data_name | default: "projects" %}
+{%- assign dataset = site.data[input_data] %}
 
-{%- for item in input_data %}
+{%- for item in dataset %}
   {% if item.tags %}
     {%- for t in item.tags %}
       {% assign all_tags = all_tags | push: t %}
