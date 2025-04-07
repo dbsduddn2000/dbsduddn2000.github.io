@@ -5,7 +5,7 @@
   image: images/photo.jpg
   # link: https://github.com/
   description: (공동) 정보통신기획평가원(IITP), 과학기술정보통신부, 대학 ICT 연구센터
-  repo: greenelab/lab-website-template
+  # repo: greenelab/lab-website-template
   tags:
     - resource
 
@@ -15,7 +15,7 @@
   image: images/photo.jpg
   # link: https://github.com/
   description: (참여교수) 정보통신기획평가원(IITP), 과학기술정보통신부, SW중심대학
-  repo: greenelab/lab-website-template
+  # repo: greenelab/lab-website-template
   tags:
     - resource
 
@@ -25,7 +25,7 @@
   image: images/photo.jpg
   # link: https://github.com/
   description: (참여교수) 한국연구재단(NRF), 교육부, 디지털 신기술 인재양성 혁신공유대학
-  repo: greenelab/lab-website-template
+  # repo: greenelab/lab-website-template
   tags:
     - resource
 
@@ -35,7 +35,7 @@
   image: images/photo.jpg
   # link: https://github.com/
   description: (참여교수) 국토교통과학기술진흥원
-  repo: greenelab/lab-website-template
+  # repo: greenelab/lab-website-template
   tags:
     - resource
 
@@ -45,7 +45,7 @@
   image: images/photo.jpg
   # link: https://github.com/
   description: (공동) 정보통신기획평가원(IITP), 과학기술정보통신부, 대학 ICT 연구센터
-  repo: greenelab/lab-website-template
+  # repo: greenelab/lab-website-template
   tags:
     - resource
 
@@ -57,7 +57,7 @@
   image: images/photo.jpg
   # link: https://github.com/
   description: (참여연구원) 기초기술연구회
-  repo: greenelab/lab-website-template
+  # repo: greenelab/lab-website-template
   tags:
     - software
 
@@ -67,7 +67,7 @@
   image: images/photo.jpg
   # link: https://github.com/
   description: (참여연구원) 산업자원통산부
-  repo: greenelab/lab-website-template
+  # repo: greenelab/lab-website-template
   tags:
     - software
 
@@ -77,7 +77,7 @@
   image: images/photo.jpg
   # link: https://github.com/
   description: (참여연구원) 정보통신기획평가원(IITP)
-  repo: greenelab/lab-website-template
+  # repo: greenelab/lab-website-template
   tags:
     - software
 
@@ -87,7 +87,7 @@
   image: images/photo.jpg
   # link: https://github.com/
   description: (참여연구원) 정보통신기획평가원(IITP)
-  repo: greenelab/lab-website-template
+  # repo: greenelab/lab-website-template
   tags:
     - resource
 
@@ -97,7 +97,7 @@
   image: images/photo.jpg
   # link: https://github.com/
   description: (참여연구원) 현대일렉트릭
-  repo: greenelab/lab-website-template
+  # repo: greenelab/lab-website-template
   tags:
     - software
 
@@ -107,7 +107,7 @@
   image: images/photo.jpg
   # link: https://github.com/
   description: (참여연구원) SK건설
-  repo: greenelab/lab-website-template
+  # repo: greenelab/lab-website-template
   tags:
     - resource
 
@@ -117,7 +117,7 @@
   image: images/photo.jpg
   # link: https://github.com/
   description: (참여연구원) SK이노베이션
-  repo: greenelab/lab-website-template
+  # repo: greenelab/lab-website-template
   tags:
     - software
 
@@ -127,7 +127,7 @@
   image: images/photo.jpg
   # link: https://github.com/
   description: (공동) LG전자
-  repo: greenelab/lab-website-template
+  # repo: greenelab/lab-website-template
   tags:
     - software
 
@@ -137,7 +137,7 @@
   image: images/photo.jpg
   # link: https://github.com/
   description: (공동) 한국산업기술진흥원(KIAT), 산업통산자원부
-  repo: greenelab/lab-website-template
+  # repo: greenelab/lab-website-template
   tags:
     - software
 
@@ -147,7 +147,7 @@
   image: images/photo.jpg
   # link: https://github.com/
   description: (참여교수) 한국연구재단(NRF), 교육부, 4단계 BK21 FOUR
-  repo: greenelab/lab-website-template
+  # repo: greenelab/lab-website-template
   tags:
     - resource
 
@@ -157,7 +157,7 @@
   image: images/photo.jpg
   # link: https://github.com/
   description: (공동) LG전자
-  repo: greenelab/lab-website-template
+  # repo: greenelab/lab-website-template
   tags:
     - software
 
@@ -167,7 +167,7 @@
   image: images/photo.jpg
   # link: https://github.com/
   description: (책임) 한국연구재단(NRF), 교육부, 우수신진연구
-  repo: greenelab/lab-website-template
+  # repo: greenelab/lab-website-template
   tags:
     - resource
 
@@ -177,6 +177,6 @@
   image: images/photo.jpg
   # link: https://github.com/
   description: (공동) 한국연구재단(NRF), 교육부, 기초연구실(Basic Research Lab.)
-  repo: greenelab/lab-website-template
+  # repo: greenelab/lab-website-template
   tags:
     - resource
