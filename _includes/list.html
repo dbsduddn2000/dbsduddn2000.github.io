@@ -1,28 +1,25 @@
 {% assign emptyarray = "" | split: "," %}
-{% assign data = include.data | default: emptyarray %}
+{% assign data = site.data[include.data]
+  | default: site[include.data]
+  | default: emptyarray
+  | data_filter: include.filter
+%}
 
-{% if include.tag_filter %}
-  {% assign tag = include.tag_filter | downcase %}
-  {% assign filtered_data = "" | split: "," %}
+{% assign years = data
+  | group_by_exp: "d", "d.date | date: '%Y'"
+  | sort: "name"
+  | reverse
+%}
+{% for year in years %}
+  {% assign data = year.items %}
+  {% if years.size > 1 %}
+    {{--}}<h3 id="{{ year.name }}">{{ year.name }}</h3>
+    {% assign data = data | sort: "date" | reverse %}
+  {% endif %}
+  {% if include.component == "portrait" %}
+    {% assign data = data | sort: "order" %}
+  {% endif %}
   {% for d in data %}
-    {% assign tag_str = d.tags | join: "," | downcase %}
-    {% if tag_str contains tag %}
-      {% assign filtered_data = filtered_data | push: d %}
-    {% endif %}
-  {% endfor %}
-  {% assign data = filtered_data %}
-{% endif %}
-
-{% for d in data %}
-  {% assign style = d.style | default: include.style %}
-  {% include {{ include.component | append: ".html" }}
-    title=d.title
-    subtitle=d.subtitle
-    description=d.description
-    image=d.image
-    tags=d.tags
-    repo=d.repo
-    link=d.link
-    style=style
-  %}
-{% endfor %}
+    {% assign style = d.style | default: include.style %}
+    {%
+      include {{ include.component | append: ".html" }}
