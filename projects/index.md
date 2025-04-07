@@ -9,21 +9,36 @@ nav:
 
 {% include tags.html %}
 
-{% include section.html %}
-
-{% assign search_param = page.url | split: '?' | last | uri_decode %}
-{% assign tag_filter = "" %}
-{% if search_param contains "tag:" %}
-  {% assign tag_parts = search_param | split: "tag:" %}
-  {% assign tag_filter = tag_parts[1] | downcase | strip | remove: '"' | remove: '&quot;' %}
-{% endif %}
+{% assign ongoing_projects = site.data.projects | where: "group", "ongoing" %}
+{% assign completed_projects = site.data.projects | where: "group", "completed" %}
 
 ## Ongoing Projects
 
-{% include list.html component="card" data="projects" filter="group == 'ongoing'" tag_filter=tag_filter %}
+{% for p in ongoing_projects %}
+  {% include card.html
+    title=p.title
+    subtitle=p.subtitle
+    description=p.description
+    image=p.image
+    tags=p.tags
+    repo=p.repo
+    link=p.link
+  %}
+{% endfor %}
 
 {% include section.html %}
 
 ## Completed Projects
 
-{% include list.html component="card" data="projects" filter="group == 'completed'" tag_filter=tag_filter style="small" %}
+{% for p in completed_projects %}
+  {% include card.html
+    title=p.title
+    subtitle=p.subtitle
+    description=p.description
+    image=p.image
+    tags=p.tags
+    repo=p.repo
+    link=p.link
+    style="small"
+  %}
+{% endfor %}
