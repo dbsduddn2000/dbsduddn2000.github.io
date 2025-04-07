@@ -9,9 +9,6 @@ nav:
 
 {% include tags.html data=site.data.projects %}
 
-{% assign ongoing_projects = site.data.projects | where: "group", "ongoing" %}
-{% assign completed_projects = site.data.projects | where: "group", "completed" %}
-
 {% assign query = page.url | split: '?' | last | uri_decode %}
 {% assign tag_filter = "" %}
 {% if query contains "tag%3A" %}
@@ -20,41 +17,14 @@ nav:
   {% assign tag_filter = query | split: "tag:" | last | split: "&" | first | strip | downcase %}
 {% endif %}
 
-{% assign tag_filter = tag_filter | downcase %}
-
 ## Ongoing Projects
 
-{% for p in ongoing_projects %}
-  {% assign tags = p.tags | join: "," | downcase %}
-  {% if tag_filter == "" or tags contains tag_filter %}
-    {% include card.html
-      title=p.title
-      subtitle=p.subtitle
-      description=p.description
-      image=p.image
-      tags=p.tags
-      repo=p.repo
-      link=p.link
-    %}
-  {% endif %}
-{% endfor %}
+{% assign ongoing_projects = site.data.projects | where: "group", "ongoing" %}
+{% include list.html data=ongoing_projects component="card" tag_filter=tag_filter %}
 
 {% include section.html %}
 
 ## Completed Projects
 
-{% for p in completed_projects %}
-  {% assign tags = p.tags | join: "," | downcase %}
-  {% if tag_filter == "" or tags contains tag_filter %}
-    {% include card.html
-      title=p.title
-      subtitle=p.subtitle
-      description=p.description
-      image=p.image
-      tags=p.tags
-      repo=p.repo
-      link=p.link
-      style="small"
-    %}
-  {% endif %}
-{% endfor %}
+{% assign completed_projects = site.data.projects | where: "group", "completed" %}
+{% include list.html data=completed_projects component="card" tag_filter=tag_filter style="small" %}
