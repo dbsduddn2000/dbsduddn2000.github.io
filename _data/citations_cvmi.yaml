@@ -684,48 +684,44 @@ learning"
   - Symposium
 
 
-- id: 
+- id: 10-2024-0197118
   title: "사고의 사이클 일관성을 활용하여 질문홉 질의 응답을 수행하는 질문홉 질의응답 시스템 및 동작 방법"
   authors:
   - 이동규
   - 이승연
-  date: 
-  link: 
+  date: '2024-12'
   image: 
   tags:
   - Patent
 
-- id: 
+- id: 10-2024-0197118
   title: "확장된 의미론적 설명을 활용한 제로샷 행동 인식 시스템 및 동작 방법"
   authors:
   - 이동규
   - 이정철
-  date: 
-  link: 
+  date: '2024-12'
   image: 
   tags:
   - Patent
 
-- id: 
+- id: 10-2023-0137064
   title: "비디오 영상 내 인간과 객체 간의 상호 작용을 분석 및 학습하여 인간 행동 의도를 추론하는 영상 분석 장치 및 영상 분석 방법"
   authors:
   - 이동규
   - 홍혜성
   - 이정철
-  date: 
-  link: 
+  date: '2023-10' 
   image: 
   tags:
   - Patent
 
-  - id: 
+  - id: 10-2023-0044603
   title: "비지도 도메인 적응 학습 기반 객체 종류 및 윤곽정보를 활용한 영상 분할 방법 및 시스템"
   authors:
   - 이동규
   - 홍혜성
-  date: 
-  link: 
-  image: 
+  date: '2023-04'
+  image: images/UDAS_photo.jpg
   tags:
   - Patent
 
@@ -734,7 +730,6 @@ learning"
   authors:
   - 이동규
   date: '2022-12'
-  link: 
   image: images/MLTD_photo.jpg
   tags:
   - Patent
