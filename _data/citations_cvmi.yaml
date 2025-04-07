@@ -715,7 +715,7 @@ learning"
   tags:
   - Patent
 
-  - id: 10-2023-0044603
+- id: 10-2023-0044603
   title: "비지도 도메인 적응 학습 기반 객체 종류 및 윤곽정보를 활용한 영상 분할 방법 및 시스템"
   authors:
   - 이동규
@@ -725,7 +725,7 @@ learning"
   tags:
   - Patent
 
-  - id: 10-2022-0186621
+- id: 10-2022-0186621
   title: "다중작업 학습기반의 교통객체 탐지, 주행가능영역 추정 및 차선 분할을 위한 영상 데이터 처리 장치 및 방법"
   authors:
   - 이동규
@@ -757,8 +757,6 @@ learning"
   image: images/APRC_photo.jpg
   tags:
   - Patent
-
-
 
 - id: C-2024-042455
   title: "병렬 인공 신경망 구조 기반 준지도학습 의미론적 분할"
