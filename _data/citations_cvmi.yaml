@@ -683,14 +683,28 @@ learning"
   tags:
   - Symposium
 
-- id: 10-2024-0197118
+
+- id: 10-17207810000
+  title: "객체에 대한 이상 행동 예측 장치 및 이를 이용한 이상 행동 예측 방법"
+  authors:
+  - 이동규
+  - 이성환
+  date: '2017-03'
+  link: 
+  image: images/AAP_photo.jpg
+  tags:
+  - Patent
+
+
+
+- id: 10-18728110000
   title: "사고의 사이클 일관성을 활용하여 질문홉 질의 응답을 수행하는 질문홉 질의응답 시스템 및 동작 방법"
   authors:
   - 이동규
   - 이상준
   - 이성환
   date: '2018-06'
-  link: https://www.kipris.or.kr/khome/search/searchResult.do
+  link: 
   image: images/APRC_photo.jpg
   tags:
   - Patent
