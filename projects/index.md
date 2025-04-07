@@ -12,9 +12,23 @@ nav:
 {% assign ongoing_projects = site.data.projects | where: "group", "ongoing" %}
 {% assign completed_projects = site.data.projects | where: "group", "completed" %}
 
-## Ongoing Projects
+{%- comment -%}
+Tag 필터링 파싱: ?search="tag:software" 또는 ?search=tag%3Asoftware 모두 지원
+{%- endcomment -%}
+{% assign query = page.url | split: '?' | last | uri_decode %}
+{% assign tag_filter = "" %}
+{% if query contains "tag%3A" %}
+  {% assign tag_filter = query | split: "tag%3A" | last | split: "&" | first | strip | downcase %}
+{% elsif query contains "tag:" %}
+  {% assign tag_filter = query | split: "tag:" | last | split: "&" | first | strip | downcase %}
+{% endif %}
 
 {% assign tag_filter = tag_filter | downcase %}
+
+---
+
+## Ongoing Projects
+
 {% for p in ongoing_projects %}
   {% assign tags = p.tags | join: "," | downcase %}
   {% if tag_filter == "" or tags contains tag_filter %}
@@ -30,12 +44,10 @@ nav:
   {% endif %}
 {% endfor %}
 
-
 {% include section.html %}
 
 ## Completed Projects
 
-{% assign tag_filter = tag_filter | downcase %}
 {% for p in completed_projects %}
   {% assign tags = p.tags | join: "," | downcase %}
   {% if tag_filter == "" or tags contains tag_filter %}
