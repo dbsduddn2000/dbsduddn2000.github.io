@@ -7,14 +7,11 @@ nav:
 
 # {% include icon.html icon="fa-solid fa-wrench" %}Projects
 
-{% include tags.html %}
+{% include tags.html data=site.data.projects %}
 
 {% assign ongoing_projects = site.data.projects | where: "group", "ongoing" %}
 {% assign completed_projects = site.data.projects | where: "group", "completed" %}
 
-{%- comment -%}
-Tag 필터링 파싱: ?search="tag:software" 또는 ?search=tag%3Asoftware 모두 지원
-{%- endcomment -%}
 {% assign query = page.url | split: '?' | last | uri_decode %}
 {% assign tag_filter = "" %}
 {% if query contains "tag%3A" %}
@@ -24,8 +21,6 @@ Tag 필터링 파싱: ?search="tag:software" 또는 ?search=tag%3Asoftware 모�
 {% endif %}
 
 {% assign tag_filter = tag_filter | downcase %}
-
----
 
 ## Ongoing Projects
 
