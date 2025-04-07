@@ -5,9 +5,22 @@ nav:
   tooltip: Software, datasets, and more
 ---
 # {% include icon.html icon="fa-solid fa-wrench" %}Projects
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-{% include tags.html tags="publication, resource, website" %}
+Projects page
+
+{%- assign all_tags = "" | split: "," -%}
+{%- for item in site.data.projects -%}
+  {%- if item.tags -%}
+    {%- for tag in item.tags -%}
+      {%- unless all_tags contains tag -%}
+        {%- assign all_tags = all_tags | push: tag -%}
+      {%- endunless -%}
+    {%- endfor -%}
+  {%- endif -%}
+{%- endfor -%}
+{%- assign all_tags = all_tags | sort -%}
+
+{% include tags.html tags=all_tags %}
+
 {% include search-info.html %}
 
 {% include section.html %}
