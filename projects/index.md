@@ -4,28 +4,20 @@ nav:
   order: 4
   tooltip: Software, datasets, and more
 ---
+# {% include icon.html icon="fa-solid fa-wrench" %}Projects
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+{% include tags.html tags="publication, resource, website" %}
+{% include search-info.html %}
 
-# {% include icon.html icon="fa-solid fa-wrench" %} Projects
-
-{% assign query = page.url | split: '?' | last | uri_decode %}
-{% assign tag_filter = "" %}
-{% if query contains "tag%3A" %}
-  {% assign tag_filter = query | split: "tag%3A" | last | split: "&" | first | strip | downcase %}
-{% elsif query contains "tag:" %}
-  {% assign tag_filter = query | split: "tag:" | last | split: "&" | first | strip | downcase %}
-{% endif %}
-
-{% assign ongoing_projects = site.data.projects | where: "group", "ongoing" %}
-{% assign completed_projects = site.data.projects | where: "group", "completed" %}
-
-{% include tags.html data_name="projects" %}
+{% include section.html %}
 
 ## Ongoing Projects
 
-{% include list.html data=ongoing_projects component="card" tag_filter=tag_filter %}
+{% include list.html component="card" data="projects" filter="group == 'ongoing'" %}
 
 {% include section.html %}
 
 ## Completed Projects
 
-{% include list.html data=completed_projects component="card" tag_filter=tag_filter style="small" %}
+{% include list.html component="card" data="projects" filter="group == 'completed'" style="small" %}
