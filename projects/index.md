@@ -20,10 +20,10 @@ nav:
 
 ## Ongoing Projects
 
-{% include list.html component="card" data="project" filter="group == 'ongoing'" tag_filter=tag_filter %}
+{% include list.html component="card" data="projects" filter="group == 'ongoing'" tag_filter=tag_filter %}
 
 {% include section.html %}
 
 ## Completed Projects
 
-{% include list.html component="card" data="project" filter="group == 'completed'" tag_filter=tag_filter style="small" %}
+{% include list.html component="card" data="projects" filter="group == 'completed'" tag_filter=tag_filter style="small" %}
