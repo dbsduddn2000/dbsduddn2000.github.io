@@ -1,19 +1,24 @@
 {% assign emptyarray = "" | split: "," %}
-{% assign data = site.data[include.data]
-  | default: site[include.data]
-  | default: emptyarray
-  | data_filter: include.filter
-%}
+{% assign data = site.data[include.data] | default: site[include.data] | default: emptyarray %}
 
+{%- comment -%}
+태그 필터링 (대소문자 무시)
+{%- endcomment -%}
 {% if include.tag_filter %}
-  {% assign tag = include.tag_filter %}
-  {% assign data = data | where_exp: "d", "d.tags contains tag" %}
+  {% assign tag = include.tag_filter | downcase %}
+  {% assign filtered_data = "" | split: "," %}
+  {% for d in data %}
+    {% assign tag_str = d.tags | join: "," | downcase %}
+    {% if tag_str contains tag %}
+      {% assign filtered_data = filtered_data | push: d %}
+    {% endif %}
+  {% endfor %}
+  {% assign data = filtered_data %}
 {% endif %}
 
 {% for d in data %}
   {% assign style = d.style | default: include.style %}
-  {%
-    include {{ include.component | append: ".html" }}
+  {% include {{ include.component | append: ".html" }}
     affiliation=d.affiliation
     author=d.author
     authors=d.authors
