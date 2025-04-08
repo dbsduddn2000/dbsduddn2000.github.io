@@ -1,7 +1,7 @@
 ---
 title: Home
 nav:
-  order: 5
+  order: 1
   tooltip: Musings and miscellany
 ---
 
