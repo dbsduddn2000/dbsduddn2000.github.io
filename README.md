@@ -24,8 +24,25 @@ Visit **[dbsduddn2000.github.io](https://dbsduddn2000.github.io)** 🚀
 | 📂 Project Page | `_data/projects.yaml` |
 | 📝 Blog Page | `_posts/` |
 | 🖼 이미지 | `images/` 폴더 내 관리 |
+| 👥 Member Page | `_members/` |
+| 🧱 Entity HTML (템플릿) | `_includes/`, `_layouts/` |
 
 > 🔍 **이미지를 삽입할 경우**, 반드시 `images` 폴더에 업로드한 뒤 해당 경로를 사용해주세요.
+
+---
+
+## 📄 사이트 페이지 마크다운 정보
+| 항목 | 경로 |
+|------|------|
+| 🏠 Home | `index.md` |
+| 🔬 Research | `research/index.md` |
+| 📁 Projects | `projects/index.md` |
+| 👨‍🏫 Professor | `professor/index.md` |
+| 📝 Blog | `blog/index.md` |
+| ✉️ Contact | `contact/contact.md` |
+
+> 📌 **페이지를 수정하는 경우**, 해당 경로에 있는 `.md` 파일을 편집해주세요.
+> 📌 **페이지를 추가하는 경우**, 경로를 생성하고 `.md` 파일의 형식에 맞게 작성 해주세요.
 
 ---
 
