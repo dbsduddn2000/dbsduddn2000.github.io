@@ -18,14 +18,14 @@ Visit **[dbsduddn2000.github.io](https://dbsduddn2000.github.io)** 🚀
 ---
 
 ## 📁 사이트 데이터 저장 위치
-| 항목 | 경로 |
-|------|------|
-| 📰 Publication Page | `_data/citations_cvmi.yaml` |
-| 📂 Project Page | `_data/projects.yaml` |
-| 📝 Blog Page | `_posts/` |
-| 🖼 이미지 | `images/` 폴더 내 관리 |
-| 👥 Member Page | `_members/` |
-| 🧱 Entity HTML (템플릿) | `_includes/`, `_layouts/` |
+| 항목 | 경로 | 설명서 |
+|------|------|--------|
+| 📰 Publication Page | `_data/citations_cvmi.yaml` | [논문 관련 정보](_document/citations_cvmi.md) |
+| 📂 Project Page | `_data/projects.yaml` | [프로젝트 관련 정보](_document/projects.md) |
+| 📝 Blog Page | `_posts/` | [블로그 관련 정보](_document/posts.md) |
+| 🖼 이미지 | `images/` 폴더 내 관리 |  |
+| 👥 Member Page | `_members/` | [멤버 관련 정보](_document/members.md) |
+| 🧱 Entity HTML (템플릿) | `_includes/`, `_layouts/` | [N/A] |
 
 > 🔍 **이미지를 삽입할 경우**, 반드시 `images` 폴더에 업로드한 뒤 해당 경로를 사용해주세요.
 
