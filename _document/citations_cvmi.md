@@ -19,7 +19,7 @@
 | `title` | 인용 항목의 제목 (Manubot 자동 생성 대신 수동 입력할 때 사용) | `Some Publication Title` |
 | `authors` | 저자 목록. 마크다운 사용 가능 | `[ "**Steve McQueen**", "Lightning McQueen" ]` |
 | `publisher` | 출판사 이름 (수동 입력 시) | `bioRxiv` |
-| `date` | 출판일. `YYYY-MM-DD` 형식 권장 | `2021-01-01` |
+| `date` | 출판일. `YYYY-MM-DD` 형식 권장 (일자 제외하고 작성하여도 됨) | `2021-01-01` |
 | `link` | 해당 인용 항목의 링크 | `https://biorxiv.org/1234` |
 | `remove` | `true`로 설정 시, 해당 인용 항목을 무시하고 출력하지 않음 | `remove: true` |
 
