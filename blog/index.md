@@ -7,6 +7,27 @@ nav:
 
 # {% include icon.html icon="fa-solid fa-feather-pointed" %}Home
 
+Welcome to the _**Computer Vision and Machine Intelligence Lab. (CVMILab)**_ at the Department of Artificial Intelligence, Kyungpook National University.  
+The CVMILab. challenges unsolved problems by developing novel machine learning/deep learning models and their application for AI systems.
+
+---
+
+### Research Interests
+
+Our research interests include, but are not limited to, the following areas:
+
+- Computer vision and pattern recognition  
+- Machine learning / deep learning  
+- Smart mobility robot/vehicle  
+- Industrial big data analysis with machine intelligence
+
+---
+
+We are looking for highly motivated graduate students, post-docs, and undergraduate interns.  
+If you are interested to join our Lab., please do not hesitate to contact **Prof. Dong-Gyu Lee**  
+📧 [dglee@knu.ac.kr](mailto:dglee@knu.ac.kr)
+
+
 ### [ Student Supports ]
 
 - Tuition fee + Research grant + Incentive for research achievements  
