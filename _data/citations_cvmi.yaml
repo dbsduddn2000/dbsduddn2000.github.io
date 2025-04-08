@@ -586,6 +586,7 @@ learning"
   publisher: 2022 한국소프트웨어종합학술대회(KSC)
   date: '2022-12'
   link: 'https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE11224173'
+  image: images/kcc_entropy_photo.jpg
   tags:
   - Conference
   - Award
@@ -645,6 +646,7 @@ learning"
   publisher: 2016 정보과학회 동계학술대회
   date: '2016-12'
   link: 'https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE07115941'
+  image: images/ksc_trajectory_photo.jpg
   tags:
   - Conference
   - Award
@@ -658,6 +660,7 @@ learning"
   publisher: 제42회 정기총회 및 동계학술 발표회
   date: '2015-12'
   link: 'https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE06602495'
+  image: images/time_parti_photo.jpg
   tags:
   - Conference
 
