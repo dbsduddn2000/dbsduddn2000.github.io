@@ -22,7 +22,7 @@ Visit **[dbsduddn2000.github.io](https://dbsduddn2000.github.io)** 🚀
 |------|------|--------|
 | 📰 Publication Page | `_data/citations_cvmi.yaml` | [논문 관련 정보](_document/citations_cvmi.md) |
 | 📂 Project Page | `_data/projects.yaml` | [프로젝트 관련 정보](_document/projects.md) |
-| 📝 Blog Page | `_posts/` | [블로그 관련 정보](_document/posts.md) |
+| 📝 Blog Page | `_posts/` | [블로그 관련 정보](_document/blog.md) |
 | 🖼 이미지 | `images/` 폴더 내 관리 |  |
 | 👥 Member Page | `_members/` | [멤버 관련 정보](_document/members.md) |
 | 🧱 Entity HTML (템플릿) | `_includes/`, `_layouts/` | [N/A] |
