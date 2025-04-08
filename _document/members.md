@@ -25,19 +25,17 @@
 
 ```markdown
 ---
-name: Tim Member
-image: images/team/tim.jpg
+name: 윤영우
+image: images/team/yyw.jpg
 role: programmer
 description: Senior Programmer
 aliases:
   - T Member
   - T. Member
-  - Timothy Member
 links:
-  home-page: https://tims-website.com/
-  email: tim-member@email.com
-  twitter: tims_twitter
+  home-page: https://yyw-website.com/
+  email: yyw-member@email.com
+  twitter: yyw_twitter
 ---
 
-Tim은 소프트웨어 개발팀의 시니어 프로그래머로, 실험 데이터 시각화 도구를 개발하고 있습니다.  
-최근에는 머신러닝 기반의 분석 시스템 구축에 집중하고 있으며, 취미로는 사진과 수영을 즐깁니다.
+윤영우에 대한 소개글 ~~~~
