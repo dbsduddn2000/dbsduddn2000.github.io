@@ -5,7 +5,9 @@ nav:
   tooltip: Musings and miscellany
 ---
 
-# {% include icon.html icon="fa-solid fa-feather-pointed" %}Home
+# {% include icon.html icon="fa-solid fa-feather-pointed" %}## **COMPUTER VISION & MACHINE INTELLIGENCE LAB.**
+___
+
 
 Welcome to the _**Computer Vision and Machine Intelligence Lab. (CVMILab)**_ at the Department of Artificial Intelligence, Kyungpook National University.  
 The CVMILab. challenges unsolved problems by developing novel machine learning/deep learning models and their application for AI systems.
