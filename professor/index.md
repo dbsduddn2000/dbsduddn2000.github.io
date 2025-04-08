@@ -1,7 +1,7 @@
 ---
 title: Professor
 nav:
-  order: 6
+  order: 2
   tooltip: About Professor
 ---
 
