@@ -2,7 +2,7 @@
 title: Blog
 nav:
   order: 1
-  tooltip: Musings and miscellany
+  tooltip: Our current news
 ---
 
 ### [ News ]
