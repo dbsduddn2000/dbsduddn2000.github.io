@@ -13,10 +13,10 @@
 | `subtitle`    | 프로젝트 기간 또는 부제목(날짜 형식 권장).                           | `2021.05.01 ~ 2027.02.28.`                           | ✅ 필수    |
 | `group`       | 진행 상태: `ongoing` 또는 `completed` 중 하나.                       | `ongoing`                                            | ✅ 필수    |
 | `image`       | 프로젝트 대표 이미지 경로 (`images/` 디렉토리 기준 상대경로).        | `images/photo.jpg`                                   | ✅ 필수    |
-| `description` | 프로젝트 설명 또는 참여자 정보 (예: 참여연구원, 공동, 참여교수 등). | `(공동) 정보통신기획평가원(IITP), 과학기술정보통신부` | ✅ 필수    |
+| `description` | 프로젝트 설명 또는 참여자 정보 (예: 참여연구원, 공동, 참여교수 등). | `(공동) 정보통신기획평가원(IITP), 과학기술정보통신부` | ❌ 선택    |
 | `link`        | (선택) 프로젝트 외부 링크가 있다면 추가.                             | `https://example.com/project-info`                   | ❌ 선택    |
 | `repo`        | (선택) 관련된 GitHub 저장소.                                         | `greenelab/lab-website-template`                     | ❌ 선택    |
-| `tags`        | 태그 리스트. 주로 `resource`, `software` 등 분류를 위해 사용.        | `- resource` 또는 `- software`                        | ✅ 필수    |
+| `tags`        | 태그 리스트. 주로 `resource`, `software` 등 분류를 위해 사용.        | `- resource` 또는 `- software`                        | ❌ 선택    |
 
 ---
 
