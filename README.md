@@ -47,7 +47,7 @@ Visit **[dbsduddn2000.github.io](https://dbsduddn2000.github.io)** 🚀
 | 📁 Projects | `projects/index.md` |
 | 👨‍🏫 Professor | `professor/index.md` |
 | 📝 Blog | `blog/index.md` |
-| ✉️ Contact | `contact/contact.md` |
+| ✉️ Contact | `contact/index.md` |
 
 > 📌 **페이지를 수정하는 경우**, 해당 경로에 있는 `.md` 파일을 편집해주세요.<br>
 > 📌 **페이지를 추가하는 경우**, 경로를 생성하고 `.md` 파일의 형식에 맞게 작성 해주세요.
