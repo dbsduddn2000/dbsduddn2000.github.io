@@ -4,9 +4,6 @@
   viewBox="0 0 300 100"
   xmlns="http://www.w3.org/2000/svg"
 >
-  <!-- 투명 배경 (rect 태그 없이) -->
-
-  <!-- "CVMI" 텍스트를 기울이고(italic + skew), 각진 느낌 폰트 사용 -->
   <text
     x="50%"
     y="50%"
@@ -16,7 +13,7 @@
     text-anchor="middle"
     alignment-baseline="middle"
     font-style="italic"
-    transform="skewX(-10)"  <!-- 글자를 X축 기준 -10도 기울임 -->
+    transform="skewX(-10)"
   >
     CVMI
   </text>
